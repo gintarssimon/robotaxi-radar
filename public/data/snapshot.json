@@ -4,13 +4,13 @@
   "asOf": "2026-09-23",
   "coverage": "Recherchierte, unvollständige Startauswahl",
   "lastRun": {
-    "at": "2026-09-24T01:32:32.489Z",
+    "at": "2026-09-24T05:26:42.853Z",
     "status": "partial",
     "providers": {
       "Waymo": {
         "pages": 11,
-        "accepted": 34,
-        "announcements": 2,
+        "accepted": 33,
+        "announcements": 1,
         "pendingReview": 6,
         "ignored": 0,
         "rejected": 0,
@@ -18,25 +18,20 @@
         "discovered": 55
       },
       "Uber": {
-        "pages": 11,
+        "pages": 12,
         "accepted": 2,
         "announcements": 0,
-        "pendingReview": 7,
+        "pendingReview": 6,
         "ignored": 0,
         "rejected": 0,
-        "errors": [
-          {
-            "url": "https://investor.uber.com/news-events/news/press-release-details/2025/WeRide-and-Uber-Launch-Middle-Easts-First-Fully-Driverless-Robotaxi-Commercial-Operations-in-Abu-Dhabi-UAE/",
-            "reason": "Quellenabruf HTTP 403"
-          }
-        ],
+        "errors": [],
         "discovered": 40
       },
       "Lyft": {
         "pages": 10,
         "accepted": 0,
         "announcements": 0,
-        "pendingReview": 5,
+        "pendingReview": 1,
         "ignored": 0,
         "rejected": 0,
         "errors": [],
@@ -61,7 +56,7 @@
         "discovered": 0
       }
     },
-    "changed": 18
+    "changed": 1
   },
   "records": [
     {
@@ -932,9 +927,14 @@
       "platform": "Waymo",
       "status": "announced",
       "driving": "unknown",
-      "announcedOn": null,
+      "announcedOn": "2026-09-14",
       "launchedOn": null,
-      "target": null,
+      "target": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "precision": "year",
+        "label": "2027"
+      },
       "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
       "review": "automatic",
       "history": [],
@@ -945,8 +945,22 @@
         "dynamic": true,
         "checkedAt": "2026-09-24"
       },
-      "targetSource": null,
-      "additionalSources": []
+      "targetSource": {
+        "url": "https://waymo.com/blog/2026/09/opening-tokyo-in-2027-with-nihon-kotsu-go/",
+        "title": "Opening our doors to Tokyo riders in 2027 with Nihon Kotsu and GO",
+        "publishedOn": "2026-09-14",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "additionalSources": [
+        {
+          "url": "https://waymo.com/blog/2026/09/opening-tokyo-in-2027-with-nihon-kotsu-go/",
+          "title": "Opening our doors to Tokyo riders in 2027 with Nihon Kotsu and GO",
+          "publishedOn": "2026-09-14",
+          "dynamic": false,
+          "checkedAt": "2026-09-24"
+        }
+      ]
     },
     {
       "id": "waymo-washington-waymo",
@@ -1345,7 +1359,7 @@
       "title": "Introducing transit rewards",
       "publishedOn": "2026-09-22",
       "detectedOn": "2026-09-24",
-      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
     },
     {
       "id": "99d5cba70bbc8c00c4b8",
@@ -1354,7 +1368,7 @@
       "title": "Building Waymo’s Risk and Insurance Foundation in Europe with Allianz Partners",
       "publishedOn": "2026-09-15",
       "detectedOn": "2026-09-24",
-      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
     },
     {
       "id": "a3140bebb8c6e755734f",
@@ -1596,6 +1610,105 @@
       "url": "https://www.lyft.com/blog/posts/shaping-the-future-of-rideshare-together",
       "title": "Shaping the Future of Rideshare, Together Introducing the Lyft Driver Autonomous Forum",
       "publishedOn": "2025-06-26",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "483f0f22b23762a924c7",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2025/12/autonomously-navigating-the-real-world/",
+      "title": "Autonomously navigating the real world: lessons from the PG&E outage",
+      "publishedOn": "2025-12-23",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "65bb30c0f5f942d1003b",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2025/11/safe-routine-ready-autonomous-driving-in-new-cities/",
+      "title": "Safe, Routine, Ready: Autonomous driving in five new cities",
+      "publishedOn": "2025-11-18",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "0ebe48726359887cf8bb",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2025/09/waymo-is-coming-to-nashville-in-partnership-with-lyft/",
+      "title": "Bringing fully autonomous rides to Nashville, in partnership with Lyft",
+      "publishedOn": "2025-09-17",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "c2bcc07e0e2bdf4132c3",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2025/06/scaling-laws-in-autonomous-driving/",
+      "title": "New Insights for Scaling Laws in Autonomous Driving",
+      "publishedOn": "2025-06-13",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "d46af062a19f0f47f3c8",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/only-on-uber-2026/",
+      "title": "Only on Uber 2026: Built Around What Drivers and Couriers Asked For",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "b6984478f887f67a1ece",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/one-year-of-hope-rides/",
+      "title": "One year of Hope Rides: Helping survivors reach safety, care, and support",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "132a220040533fee0fae",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/merchant-product/",
+      "title": "Smarter Tools for Restaurants to Help Them Thrive",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "7a551e951472c8f0d11f",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/live-video-teen-trips/",
+      "title": "Introducing Live Video on Teen Trips",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "76f043ddfd1cee3a786c",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/go-get-2026/",
+      "title": "GO–GET 2026: One app for everything",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "6dd48b441e7a94e4ee63",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/background-checks/",
+      "title": "How We Keep Our Platform Safe: Understanding Uber’s Background Checks and Safety Incident Response",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "97f888d2cd693656da0b",
+      "provider": "Lyft",
+      "url": "https://www.lyft.com/blog/posts/paving-the-way-forward-accelerating-av-adoption-through-smart-policy",
+      "title": "Paving the way forward: accelerating AV adoption through smart policy",
+      "publishedOn": "2025-06-23",
       "detectedOn": "2026-09-24",
       "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
     }
