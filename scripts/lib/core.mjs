@@ -12,7 +12,7 @@ function requiredText(value,max=500) { if (typeof value !== 'string' || !value.t
 export function makeTarget(raw) {
   if (!raw) return null;
   const {start,end,precision} = raw;
-  if (!validDay(start) || !validDay(end) || start>end || !['day','month','quarter','year','range'].includes(precision)) throw new Error('Ungültiger Zielzeitraum');
+  if (!validDay(start) || !validDay(end) || start>end || !['day','month','quarter','half','year','range'].includes(precision)) throw new Error('Ungültiger Zielzeitraum');
   const year=start.slice(0,4),month=Number(start.slice(5,7));
   let label;
   if(precision==='day'){if(start!==end)throw new Error('Ungültiger Tag');label=start.split('-').reverse().join('.');}
@@ -26,8 +26,18 @@ export function makeTarget(raw) {
     if(![1,4,7,10].includes(month)||!start.endsWith('-01')||end!==new Date(Date.UTC(Number(year),month+2,0)).toISOString().slice(0,10))throw new Error('Ungültiges Quartal');
     label=`Q${Math.ceil(month/3)} ${year}`;
   }
+  if(precision==='half'){
+    if(![1,7].includes(month)||!start.endsWith('-01')||end!==new Date(Date.UTC(Number(year),month+5,0)).toISOString().slice(0,10))throw new Error('Ungültiges Halbjahr');
+    label=(month===1?'1':'2')+'. Halbjahr '+year;
+  }
   if(precision==='range') label=`${start.split('-').reverse().join('.')} – ${end.split('-').reverse().join('.')}`;
-  return {start,end,precision,label};
+  const qualifiers={early:'Anfang',mid:'Mitte',late:'Ende',spring:'Frühjahr',summer:'Sommer',autumn:'Herbst',winter:'Winter'};
+  if(raw.qualifier){
+    if(precision!=='year'||!qualifiers[raw.qualifier])throw new Error('Ungültige ungefähre Zeitangabe');
+    // Year boundaries serve sorting and overdue checks, not precise launch dates.
+    label=qualifiers[raw.qualifier]+' '+year;
+  }
+  return {start,end,precision,label,...(raw.qualifier?{qualifier:raw.qualifier}:{})};
 }
 export function normalizeCandidate(raw, provider, pages, cities, today) {
   if (!raw || typeof raw !== 'object' || !cities[raw.cityKey]) throw new Error('Ort fehlt im Ortskatalog');
@@ -61,6 +71,7 @@ export function mergeRecords(existing, candidates, today) {
   let changed=0, ignored=0;
   for(const candidate of candidates.sort((a,b)=>evidenceDay(a).localeCompare(evidenceDay(b)))) {
     const prev=records.get(candidate.id);
+    if(prev&&candidate.extraction==='announcement'&&['live','limited','paused'].includes(prev.status)){ignored++;continue;}
     if(prev && evidenceDay(candidate)<evidenceDay(prev)){
       // Older launch articles may fill missing historical dates without changing
       // the newer availability status. A target retains its own dated evidence.

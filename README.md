@@ -1,27 +1,28 @@
-# Robotaxi Radar – Spark-Version
+# Robotaxi Radar – kostenlose Firebase-Version
 
-Kostenlose statische Firebase-Website mit Karte, Liste und vorbereiteter Quellenprüfung über GitHub Actions. Die vollständige Anleitung ohne Coding-Vorkenntnisse steht in `START-HIER.md`.
+Statische Firebase-Website mit Karte, Liste und täglicher Quellenprüfung über GitHub Actions. Die Aktualisierung für offizielle Ankündigungen ist in **UPDATE-ANKUENDIGUNGEN.md** beschrieben.
 
-```bash
-npm ci
-npm run setup
-npx firebase-tools@15.30.2 deploy --only hosting
-```
+## Befehle
 
-Die Veröffentlichung allein aktiviert noch keine automatische Recherche. Dafür die GitHub-Einrichtung in der Anleitung durchführen.
+- npm ci: Abhängigkeiten installieren
+- npm test: Datenverarbeitung und Erkennung prüfen
+- npm run refresh: öffentliche Quellen abrufen und public/data/snapshot.json aktualisieren
+- npm run dev: lokale Vorschau
+- npm run setup: bestehendes Firebase-Projekt auswählen
+- npm run automation: vorhandene Firebase-GitHub-Verbindung für den täglichen Lauf nutzen
 
-## Technischer Überblick
+## Quellen und Auswertung
 
-- `firebase.json` veröffentlicht ausschließlich `public/` über Firebase Hosting.
-- Die App liest `public/data/snapshot.json`; es gibt keinen serverseitigen API-Endpunkt.
-- `npm run refresh` prüft ausgewählte öffentliche Quellen ohne KI-API. Bekannte explizite Stadtlisten werden verarbeitet, andere neue Seiten als ungeprüfte Hinweise gespeichert.
-- `npm run automation` erzeugt nach `firebase init hosting:github` den täglichen GitHub-Workflow aus dem von Firebase angelegten Secret-Verweis.
-- Quellenfehler bleiben sichtbar. Das Verschwinden einer Stadt bedeutet nicht automatisch Betriebseinstellung.
-- `npm test` prüft die Datenlogik; `npm run dev` startet eine lokale Vorschau auf Port 5173.
-- `npm run build` regeneriert lokale Kartenbibliotheken und Länderumrisse. Für die erste Veröffentlichung ist es nicht erforderlich, da diese Dateien mitgeliefert werden.
+Die bisherigen Stadtlisten von Waymo, Waymo/Uber und Tesla werden weiter verarbeitet. Zusätzlich erkennt das Skript eindeutige offizielle Ankündigungen künftiger öffentlicher Fahrdienste auf Deutsch und Englisch. Stadt, Technologiepartner und Zielzeitraum werden im Kontext derselben Aussage geprüft. Veröffentlichung, Zieltermin und tatsächlicher Start sind getrennte Angaben.
 
-Die 44 Startdatensätze sind eine unvollständige Rechercheauswahl vom 23.09.2026. Die aktuelle Automatik erkennt Waymo-Stadtlisten, explizite Waymo/Uber-Verknüpfungen und Teslas Verfügbarkeitsliste. Freie Nachrichten, neue Zieltermine sowie Lyft und andere Uber-Partner benötigen zunächst Quellenprüfung und manuelle Datenergänzung. Der Ortskatalog enthält 50 Städte.
+Waymos Sitemap, Blog-/Nachrichtenverzeichnisse und bekannte Artikel liefern Quellen. München und Singapur sind zusätzliche Beobachtungsquellen; die allgemeinen Erkennungsregeln lesen deren Inhalte. Acht zusätzliche Artikel pro Anbieter und Lauf begrenzen die Abrufe. Neue Artikel werden bevorzugt; verarbeitete Artikel werden frühestens nach sieben Tagen erneut abgerufen. Ein 403 oder 429 stoppt weitere Anfragen an diesen Host im laufenden Durchgang.
 
-Kein Firebase- oder GitHub-Konto wurde durch die Vorbereitung verändert. Kontoverbindung, Cloud-Veröffentlichung und produktive Quellenprüfung müssen bei der Einrichtung geprüft werden. Die visuelle Browserprüfung war in der Vorbereitungsumgebung nicht verfügbar.
+Ein angekündigtes Jahr, Quartal oder „Ende 2027“ bleibt ungenau. Interne Jahresgrenzen dienen der Sortierung und Prüfung auf überfällige Ziele; sie sind keine behaupteten Starttage. Alte Meldungen dürfen aktuellen Fahrgastbetrieb nicht zurück auf angekündigt setzen. Fehlende Nennungen löschen keine vorhandenen Daten.
 
-Leaflet: BSD-2-Clause, Lizenz unter `public/vendor/LEAFLET-LICENSE.txt`. Natural Earth: Public Domain. Quellen werden verlinkt, nicht vollständig als Artikel weiterveröffentlicht.
+Unbekannte Orte, unklare Partner, fehlende Datumsbelege, widersprüchliche Angaben und andere nicht eindeutig verstandene Artikel bleiben in der Prüfliste. Der Ortskatalog umfasst 50 Städte. Die Quellenabdeckung ist nicht vollständig. Allgemeine Artikel über bereits erfolgte Starts benötigen weiterhin Prüfung.
+
+## Kosten und Veröffentlichung
+
+Firebase Hosting veröffentlicht ausschließlich public/. Es werden keine Cloud Functions, keine Datenbank und keine kostenpflichtige KI-API benötigt. Der bestehende Spark-Aufbau und der vorhandene GitHub-Workflow bleiben bestehen. Das Update-Paket enthält keine Zugangsdaten und überschreibt weder Workflow noch Daten-Snapshot.
+
+Leaflet: BSD-2-Clause. Natural Earth: Public Domain. Quellen werden verlinkt, nicht vollständig weiterveröffentlicht.
