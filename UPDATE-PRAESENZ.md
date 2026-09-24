@@ -37,3 +37,13 @@ Ein grüner Lauf kann einzelne blockierte Quellen enthalten. Die Meldung auf der
 Es bleibt ein Überblick ausgewählter offizieller Quellen und bekannter Städte, keine vollständige weltweite Echtzeitdatenbank. Unbekannte Orte und unklare Artikel bleiben zur Prüfung. Zugriffssperren werden nicht umgangen. Ein verstrichener Zieltermin ist kein Startnachweis. Ein alter oder nicht mehr genannter Eintrag wird nicht automatisch als eingestellt bezeichnet. Ein tatsächlich beendeter Betrieb benötigt einen neuen eindeutigen Beleg und gegebenenfalls manuelle Prüfung.
 
 Die ZIP überschreibt keine vorhandenen Daten, GitHub-Secrets oder Workflows. Sie enthält die vollständigen Änderungen an Programm, Anzeige und Tests.
+
+## Ergänzung: Uber / Wayve in London
+
+Dieses Paket enthält jetzt auch die britische Uber-Nachrichtenquelle und die Erkennung eindeutiger Startmeldungen. Der frühere Abruf hatte sowohl die regionale Quelle als auch die Datumszeile der Meldung verpasst.
+
+Ubers offizielle Meldung „Wayve and Uber launch first-ever autonomous rides in the UK“ bestätigt bereits gestarteten öffentlichen Fahrgastbetrieb mit Begleitpersonal. Nach erfolgreichem Abruf erscheint deshalb ein eigener Eintrag **London – Uber – Wayve – Fahrgastbetrieb – Mit Begleitpersonal**. Er zählt als Betriebsstandort, aber nicht als fahrerloser Betrieb. In der Datumsspalte steht bei fehlendem eindeutigem Starttag **Belegt am 02.09.2026**, das Datum der britischen Uber-Meldung. Verschiedene Uber-Veröffentlichungen tragen unterschiedliche Datumsangaben; daraus wird kein exakter Starttag abgeleitet.
+
+Quelle: https://www.uber.com/gb/en/newsroom/wayve-on-uber/
+
+Zur Kontrolle London suchen: Der Uber/Wayve-Eintrag und eine etwaige Waymo-Ankündigung bleiben getrennt. Meldungen zu anderen Partnern, etwa Baidu, übernehmen den Wayve-Status nicht.

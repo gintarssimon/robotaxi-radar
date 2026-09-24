@@ -22,7 +22,7 @@ Die bestehende Firebase-Verbindung, GitHub-Secrets und der Zeitplan bleiben best
 - Quellen kommen aus Blog-/Nachrichtenverzeichnissen, Waymos Sitemap und bereits bekannten Artikeln. München und Singapur werden zusätzlich als offizielle Beobachtungsquellen abgerufen; Termine werden aus den Artikeln gelesen, nicht fest im Programm eingetragen.
 - Pro Anbieter und Lauf werden höchstens acht zusätzliche Artikel abgerufen. Neue Artikel werden bevorzugt, verarbeitete nach sieben Tagen erneut geprüft. Die bisherigen Stadtlisten werden täglich geprüft.
 - Der Ortskatalog enthält 50 Städte. Unbekannte Orte, fehlende Veröffentlichungsdaten, unklare Partner, widersprüchliche Termine und nicht erkannte Formulierungen bleiben zur Prüfung. Keine vollständige weltweite Erfassung.
-- Neue tatsächliche Starts werden aus den unterstützten Verfügbarkeitslisten erkannt. Eine allgemeine Auswertung aller bereits erfolgten Launches aus Artikeln ist nicht enthalten. Ein abgelaufener Zieltermin wird niemals automatisch „live“.
+- Neue tatsächliche Starts werden aus den unterstützten Verfügbarkeitslisten erkannt. Zusätzlich werden eindeutige englische Startmeldungen mit ausdrücklichem Stadt-, Partner- und öffentlichem Fahrgastbezug erkannt; andere Artikel bleiben zur Prüfung. Ein abgelaufener Zieltermin wird niemals automatisch „live“.
 - HTTP 403/429 wird respektiert. Das Update beseitigt keine Zugriffssperren von Tesla oder Lyft.
 
 Bei einem roten Actions-Lauf den fehlgeschlagenen Schritt öffnen und dessen Fehlermeldung teilen.

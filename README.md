@@ -19,7 +19,7 @@ Waymos Sitemap, Blog-/Nachrichtenverzeichnisse und bekannte Artikel liefern Quel
 
 Ein angekündigtes Jahr, Quartal oder „Ende 2027“ bleibt ungenau. Interne Jahresgrenzen dienen der Sortierung und Prüfung auf überfällige Ziele; sie sind keine behaupteten Starttage. Alte Meldungen dürfen aktuellen Fahrgastbetrieb nicht zurück auf angekündigt setzen. Fehlende Nennungen löschen keine vorhandenen Daten.
 
-Unbekannte Orte, unklare Partner, fehlende Datumsbelege, widersprüchliche Angaben und andere nicht eindeutig verstandene Artikel bleiben in der Prüfliste. Der Ortskatalog umfasst 50 Städte. Die Quellenabdeckung ist nicht vollständig. Allgemeine Artikel über bereits erfolgte Starts benötigen weiterhin Prüfung.
+Unbekannte Orte, unklare Partner, fehlende Datumsbelege, widersprüchliche Angaben und andere nicht eindeutig verstandene Artikel bleiben in der Prüfliste. Der Ortskatalog umfasst 50 Städte. Die Quellenabdeckung ist nicht vollständig. Eindeutige englischsprachige Startmeldungen werden zusätzlich erkannt, wenn dieselbe Aussage Stadt, Partner und bereits verfügbaren öffentlichen Fahrgastbetrieb belegt. Andere Startmeldungen benötigen weiterhin Prüfung.
 
 ## Präsenz, Fahrerlosigkeit und Aktualität
 
@@ -34,3 +34,7 @@ Die Hauptzahl zählt zuletzt belegte Städte mit Fahrgastbetrieb (`live` oder `l
 Firebase Hosting veröffentlicht ausschließlich public/. Es werden keine Cloud Functions, keine Datenbank und keine kostenpflichtige KI-API benötigt. Der bestehende Spark-Aufbau und der vorhandene GitHub-Workflow bleiben bestehen. Das Update-Paket enthält keine Zugangsdaten und überschreibt weder Workflow noch Daten-Snapshot.
 
 Leaflet: BSD-2-Clause. Natural Earth: Public Domain. Quellen werden verlinkt, nicht vollständig weiterveröffentlicht.
+
+## London-Ergänzung
+
+Ubers britisches Nachrichtenverzeichnis wird ebenfalls geprüft. Datumszeilen vor der Überschrift werden als Veröffentlichungsbeleg erkannt. Die offizielle Wayve-Startmeldung ist als Beobachtungsquelle hinterlegt; Status und Partner werden aus ihrem Inhalt gelesen. Der Eintrag wird als Fahrgastbetrieb mit Begleitpersonal geführt. Der Veröffentlichungstag wird nicht als exakter Starttag ausgegeben. Mehrere Technologiepartner in derselben Stadt bleiben getrennte Einträge.
