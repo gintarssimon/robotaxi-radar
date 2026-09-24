@@ -4,7 +4,7 @@
   "asOf": "2026-09-23",
   "coverage": "Recherchierte, unvollständige Startauswahl",
   "lastRun": {
-    "at": "2026-09-24T12:38:02.673Z",
+    "at": "2026-09-24T12:49:27.400Z",
     "status": "partial",
     "providers": {
       "Waymo": {
@@ -21,7 +21,7 @@
         "pages": 15,
         "accepted": 6,
         "announcements": 0,
-        "pendingReview": 0,
+        "pendingReview": 3,
         "ignored": 0,
         "rejected": 0,
         "errors": [],
@@ -31,7 +31,7 @@
         "pages": 12,
         "accepted": 2,
         "announcements": 0,
-        "pendingReview": 2,
+        "pendingReview": 1,
         "ignored": 0,
         "rejected": 0,
         "errors": [],
@@ -56,7 +56,7 @@
         "discovered": 0
       }
     },
-    "changed": 20
+    "changed": 0
   },
   "records": [
     {
@@ -1838,7 +1838,8 @@
         "dynamic": true,
         "checkedAt": "2026-09-24"
       },
-      "targetSource": null
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "uber-las-vegas-motional",
@@ -1863,7 +1864,8 @@
         "checkedAt": "2026-09-24"
       },
       "drivingSource": null,
-      "targetSource": null
+      "targetSource": null,
+      "additionalSources": []
     }
   ],
   "reviewQueue": [
@@ -2314,6 +2316,105 @@
       "url": "https://www.lyft.com/blog/posts/lyft-mobility-expertise-powers-av-partners",
       "title": "How Lyft's Mobility Expertise Powers AV Partner Success",
       "publishedOn": "2026-05-04",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "d87c6d080d6473552c2d",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/04/floridas-new-way-to-ride/",
+      "title": "Florida’s New Way to Ride: Waymo Opens to Everyone in Miami and Orlando",
+      "publishedOn": "2026-04-15",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "17b7aa8a25b2de99a5e8",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/02/waymo-raises-usd16-billion-investment-round/",
+      "title": "Accelerating our global growth: Waymo raises $16 billion investment round",
+      "publishedOn": "2026-02-02",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "9f327e22751e3951ef65",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/02/ro-on-6th-gen-waymo-driver/",
+      "title": "Beginning fully autonomous operations with the 6th-generation Waymo Driver",
+      "publishedOn": "2026-02-12",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "802cd08df699e1faa945",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/02/partnering-with-techforce/",
+      "title": "Partnering with TechForce to support the workforce behind fully autonomous ride-hailing",
+      "publishedOn": "2026-02-19",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "420d8717b30024f2ce1c",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando/",
+      "title": "Ready to Ride: Dallas, Houston, San Antonio, and Orlando",
+      "publishedOn": "2026-02-24",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "40b76df8ed70e4575bad",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/01/waymo-rides-at-sfo/",
+      "title": "Clear skies and autonomous Waymo rides at SFO",
+      "publishedOn": "2026-01-29",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "245a4466cc1923c60b8d",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/01/miami-your-waymo-ride-is-ready/",
+      "title": "Miami, Your Waymo Ride Is Ready",
+      "publishedOn": "2026-01-22",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "3e1620e3222ead4b592c",
+      "provider": "Uber",
+      "url": "https://www.uber.com/de/en/newsroom/go-get-2025/",
+      "title": "For Every Day",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "6808f26cbc720d43eda0",
+      "provider": "Uber",
+      "url": "https://www.uber.com/ae/en/newsroom/traveling-for-soccer-this-summer/",
+      "title": "Traveling for soccer this summer? Uber has got you covered.",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "38852a3fe332751a4a90",
+      "provider": "Uber",
+      "url": "https://www.uber.com/ae/en/newsroom/simplerfasteruber/",
+      "title": "Building a simpler, faster Uber",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "c2a09a7b492381492237",
+      "provider": "Lyft",
+      "url": "https://www.lyft.com/blog/posts/av-transportation-revolution-david-risher",
+      "title": "Motoring Down the AV Superhighway",
+      "publishedOn": "2025-02-18",
       "detectedOn": "2026-09-24",
       "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
     }
