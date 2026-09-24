@@ -1,9 +1,61 @@
 {
   "schemaVersion": 1,
-  "mode": "sample",
+  "mode": "free",
   "asOf": "2026-09-23",
-  "coverage": "Recherchierte, unvollst\u00e4ndige Startauswahl",
-  "lastRun": null,
+  "coverage": "Recherchierte, unvollständige Startauswahl",
+  "lastRun": {
+    "at": "2026-09-24T00:44:30.249Z",
+    "status": "partial",
+    "providers": {
+      "Waymo": {
+        "pages": 5,
+        "accepted": 0,
+        "rejected": 0,
+        "errors": [
+          {
+            "url": "https://waymo.com/",
+            "reason": "Unvollständige Waymo-Liste; keine Aktualisierung."
+          }
+        ]
+      },
+      "Uber": {
+        "pages": 6,
+        "accepted": 1,
+        "rejected": 0,
+        "errors": []
+      },
+      "Lyft": {
+        "pages": 4,
+        "accepted": 0,
+        "rejected": 0,
+        "errors": [
+          {
+            "url": "https://www.lyft.com/blog/posts/waymo-rides-now-available-on-the-lyft-app-in-nashville",
+            "reason": "Quellenabruf HTTP 429"
+          }
+        ]
+      },
+      "Tesla": {
+        "pages": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "errors": [
+          {
+            "url": "https://www.tesla.com/support/robotaxi",
+            "reason": "Quellenabruf HTTP 403"
+          },
+          {
+            "url": "https://www.tesla.com/robotaxi",
+            "reason": "Quellenabruf HTTP 403"
+          },
+          {
+            "reason": "Keine Quelle abrufbar"
+          }
+        ]
+      }
+    },
+    "changed": 1
+  },
   "records": [
     {
       "id": "waymo-atlanta-waymo",
@@ -16,11 +68,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -38,11 +90,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -60,11 +112,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -82,11 +134,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -104,11 +156,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -126,11 +178,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -148,11 +200,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -170,11 +222,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -192,11 +244,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -214,11 +266,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -236,11 +288,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -258,11 +310,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -280,11 +332,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -302,11 +354,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -324,11 +376,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang k\u00f6nnen eingeschr\u00e4nkt sein.",
+      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -346,11 +398,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -368,11 +420,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -390,11 +442,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -412,11 +464,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -434,11 +486,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -461,11 +513,11 @@
         "end": "2026-12-31",
         "precision": "year"
       },
-      "notes": "Als k\u00fcnftiger Markt gelistet. Zieljahr 2026 laut urspr\u00fcnglicher Ank\u00fcndigung; kein taggenauer Start best\u00e4tigt.",
+      "notes": "Als künftiger Markt gelistet. Zieljahr 2026 laut ursprünglicher Ankündigung; kein taggenauer Start bestätigt.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -474,7 +526,7 @@
       "additionalSources": [
         {
           "url": "https://waymo.com/blog/2025/10/hello-london-your-waymo-ride-is-arriving/",
-          "title": "Waymo \u00b7 Ank\u00fcndigung London",
+          "title": "Waymo · Ankündigung London",
           "publishedOn": "2025-10-15",
           "dynamic": false,
           "checkedAt": "2026-09-23"
@@ -492,11 +544,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -514,11 +566,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -536,11 +588,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -558,11 +610,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -580,11 +632,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -602,11 +654,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -624,11 +676,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -646,11 +698,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -668,11 +720,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -690,11 +742,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -712,11 +764,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als k\u00fcnftiger Markt gef\u00fchrt. Das ist kein Beleg f\u00fcr einen bereits laufenden Fahrgastbetrieb.",
+      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -739,11 +791,11 @@
         "end": "2028-12-31",
         "precision": "year"
       },
-      "notes": "Kommerzieller Start f\u00fcr 2028 angek\u00fcndigt; Vorbereitung mit Spezialisten f\u00fcr 2027 geplant. Beh\u00f6rdliche Freigaben bleiben Voraussetzung.",
+      "notes": "Kommerzieller Start für 2028 angekündigt; Vorbereitung mit Spezialisten für 2027 geplant. Behördliche Freigaben bleiben Voraussetzung.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/blog/2026/09/waymo-in-singapore/",
-        "title": "Waymo \u00b7 Ank\u00fcndigung Singapur",
+        "title": "Waymo · Ankündigung Singapur",
         "publishedOn": "2026-09-17",
         "dynamic": false,
         "checkedAt": "2026-09-23"
@@ -761,11 +813,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Als verf\u00fcgbares Robotaxi-Gebiet gef\u00fchrt. Die allgemeine Supportseite belegt nicht f\u00fcr jede Fahrt die Abwesenheit von Begleitpersonal; Fahrerlosigkeit daher hier ungekl\u00e4rt.",
+      "notes": "Als verfügbares Robotaxi-Gebiet geführt. Die allgemeine Supportseite belegt nicht für jede Fahrt die Abwesenheit von Begleitpersonal; Fahrerlosigkeit daher hier ungeklärt.",
       "review": "source-reviewed",
       "source": {
         "url": "https://www.tesla.com/support/robotaxi",
-        "title": "Tesla \u00b7 Robotaxi-Verf\u00fcgbarkeit",
+        "title": "Tesla · Robotaxi-Verfügbarkeit",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -783,11 +835,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Als verf\u00fcgbares Robotaxi-Gebiet gef\u00fchrt. Die allgemeine Supportseite belegt nicht f\u00fcr jede Fahrt die Abwesenheit von Begleitpersonal; Fahrerlosigkeit daher hier ungekl\u00e4rt.",
+      "notes": "Als verfügbares Robotaxi-Gebiet geführt. Die allgemeine Supportseite belegt nicht für jede Fahrt die Abwesenheit von Begleitpersonal; Fahrerlosigkeit daher hier ungeklärt.",
       "review": "source-reviewed",
       "source": {
         "url": "https://www.tesla.com/support/robotaxi",
-        "title": "Tesla \u00b7 Robotaxi-Verf\u00fcgbarkeit",
+        "title": "Tesla · Robotaxi-Verfügbarkeit",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -805,11 +857,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Als verf\u00fcgbares Robotaxi-Gebiet gef\u00fchrt. Die allgemeine Supportseite belegt nicht f\u00fcr jede Fahrt die Abwesenheit von Begleitpersonal; Fahrerlosigkeit daher hier ungekl\u00e4rt.",
+      "notes": "Als verfügbares Robotaxi-Gebiet geführt. Die allgemeine Supportseite belegt nicht für jede Fahrt die Abwesenheit von Begleitpersonal; Fahrerlosigkeit daher hier ungeklärt.",
       "review": "source-reviewed",
       "source": {
         "url": "https://www.tesla.com/support/robotaxi",
-        "title": "Tesla \u00b7 Robotaxi-Verf\u00fcgbarkeit",
+        "title": "Tesla · Robotaxi-Verfügbarkeit",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -827,11 +879,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Als verf\u00fcgbares Robotaxi-Gebiet gef\u00fchrt. Die allgemeine Supportseite belegt nicht f\u00fcr jede Fahrt die Abwesenheit von Begleitpersonal; Fahrerlosigkeit daher hier ungekl\u00e4rt.",
+      "notes": "Als verfügbares Robotaxi-Gebiet geführt. Die allgemeine Supportseite belegt nicht für jede Fahrt die Abwesenheit von Begleitpersonal; Fahrerlosigkeit daher hier ungeklärt.",
       "review": "source-reviewed",
       "source": {
         "url": "https://www.tesla.com/support/robotaxi",
-        "title": "Tesla \u00b7 Robotaxi-Verf\u00fcgbarkeit",
+        "title": "Tesla · Robotaxi-Verfügbarkeit",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -849,11 +901,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Als verf\u00fcgbares Robotaxi-Gebiet gef\u00fchrt. Die allgemeine Supportseite belegt nicht f\u00fcr jede Fahrt die Abwesenheit von Begleitpersonal; Fahrerlosigkeit daher hier ungekl\u00e4rt.",
+      "notes": "Als verfügbares Robotaxi-Gebiet geführt. Die allgemeine Supportseite belegt nicht für jede Fahrt die Abwesenheit von Begleitpersonal; Fahrerlosigkeit daher hier ungeklärt.",
       "review": "source-reviewed",
       "source": {
         "url": "https://www.tesla.com/support/robotaxi",
-        "title": "Tesla \u00b7 Robotaxi-Verf\u00fcgbarkeit",
+        "title": "Tesla · Robotaxi-Verfügbarkeit",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -871,11 +923,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Als verf\u00fcgbares Robotaxi-Gebiet gef\u00fchrt. Die allgemeine Supportseite belegt nicht f\u00fcr jede Fahrt die Abwesenheit von Begleitpersonal; Fahrerlosigkeit daher hier ungekl\u00e4rt.",
+      "notes": "Als verfügbares Robotaxi-Gebiet geführt. Die allgemeine Supportseite belegt nicht für jede Fahrt die Abwesenheit von Begleitpersonal; Fahrerlosigkeit daher hier ungeklärt.",
       "review": "source-reviewed",
       "source": {
         "url": "https://www.tesla.com/support/robotaxi",
-        "title": "Tesla \u00b7 Robotaxi-Verf\u00fcgbarkeit",
+        "title": "Tesla · Robotaxi-Verfügbarkeit",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -893,11 +945,11 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Waymo verweist f\u00fcr diese Stadt auf die Buchung \u00fcber Uber. Der zugeh\u00f6rige Waymo-Eintrag bildet dieselbe Partnerschaft ab.",
+      "notes": "Waymo verweist für diese Stadt auf die Buchung über Uber. Der zugehörige Waymo-Eintrag bildet dieselbe Partnerschaft ab.",
       "review": "source-reviewed",
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Waymo · Serving Riders In / Up Next",
         "publishedOn": null,
         "dynamic": true,
         "checkedAt": "2026-09-23"
@@ -911,20 +963,30 @@
       "operator": "Waymo",
       "platform": "Uber",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Waymo verweist f\u00fcr diese Stadt auf die Buchung \u00fcber Uber. Der zugeh\u00f6rige Waymo-Eintrag bildet dieselbe Partnerschaft ab.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo \u00b7 Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "lyft-nashville-waymo",
@@ -937,11 +999,11 @@
       "announcedOn": "2025-09-17",
       "launchedOn": "2026-09-09",
       "target": null,
-      "notes": "Vermittlung von Waymo-Fahrten \u00fcber Lyft im zentralen Stadtgebiet. Die Verf\u00fcgbarkeit wird schrittweise erweitert.",
+      "notes": "Vermittlung von Waymo-Fahrten über Lyft im zentralen Stadtgebiet. Die Verfügbarkeit wird schrittweise erweitert.",
       "review": "source-reviewed",
       "source": {
         "url": "https://www.lyft.com/blog/posts/waymo-rides-now-available-on-the-lyft-app-in-nashville",
-        "title": "Lyft \u00b7 Waymo-Fahrten in Nashville",
+        "title": "Lyft · Waymo-Fahrten in Nashville",
         "publishedOn": "2026-09-09",
         "dynamic": false,
         "checkedAt": "2026-09-23"
@@ -959,11 +1021,11 @@
       "announcedOn": null,
       "launchedOn": "2025-09-10",
       "target": null,
-      "notes": "Die Startmeldung beschreibt einen Pilotbetrieb mit Begleitpersonal. Der historische Beleg best\u00e4tigt nicht den heutigen Betriebsumfang.",
+      "notes": "Die Startmeldung beschreibt einen Pilotbetrieb mit Begleitpersonal. Der historische Beleg bestätigt nicht den heutigen Betriebsumfang.",
       "review": "source-reviewed",
       "source": {
         "url": "https://www.lyft.com/blog/posts/a-new-chapter-for-rideshare-lyft-and-may-mobility-bring-autonomous-vehicles",
-        "title": "Lyft \u00b7 May-Mobility-Pilot in Atlanta",
+        "title": "Lyft · May-Mobility-Pilot in Atlanta",
         "publishedOn": "2025-09-10",
         "dynamic": false,
         "checkedAt": "2026-09-23"
@@ -985,7 +1047,7 @@
       "review": "source-reviewed",
       "source": {
         "url": "https://investor.uber.com/news-events/news/press-release-details/2025/WeRide-and-Uber-Launch-Middle-Easts-First-Fully-Driverless-Robotaxi-Commercial-Operations-in-Abu-Dhabi-UAE/",
-        "title": "Uber \u00b7 Fahrerloser kommerzieller Start Abu Dhabi",
+        "title": "Uber · Fahrerloser kommerzieller Start Abu Dhabi",
         "publishedOn": "2025-11-26",
         "dynamic": false,
         "checkedAt": "2026-09-23"
@@ -993,5 +1055,114 @@
       "history": []
     }
   ],
-  "reviewQueue": []
+  "reviewQueue": [
+    {
+      "id": "046cb3aeeaeba3844045",
+      "provider": "Waymo",
+      "url": "https://waymo.com/updates/",
+      "title": "Waymo is coming soon to your city",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+    },
+    {
+      "id": "761241282c024b33b287",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/09/transit-rewards/",
+      "title": "Introducing transit rewards",
+      "publishedOn": "2026-09-22",
+      "detectedOn": "2026-09-24",
+      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+    },
+    {
+      "id": "99d5cba70bbc8c00c4b8",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/09/allianzpartnership/",
+      "title": "Building Waymo’s Risk and Insurance Foundation in Europe with Allianz Partners",
+      "publishedOn": "2026-09-15",
+      "detectedOn": "2026-09-24",
+      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+    },
+    {
+      "id": "a3140bebb8c6e755734f",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/",
+      "title": "US Latest News | Uber NewsroomopenopenlinkedinyoutubeinstagramtwitterGlobe",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+    },
+    {
+      "id": "87b53d281b61157c0479",
+      "provider": "Uber",
+      "url": "https://www.uber.com/ae/en/newsroom/",
+      "title": "United Arab Emirates (UAE) Latest News | Uber NewsroomopenopenlinkedinyoutubeinstagramtwitterGlobe",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+    },
+    {
+      "id": "9f993d2a234d7ec0f2e5",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/wayve-on-uber/",
+      "title": "Wayve and Uber launch first-ever autonomous rides in the UK",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+    },
+    {
+      "id": "c8ce38ebf55a143e76a8",
+      "provider": "Uber",
+      "url": "https://www.uber.com/ae/en/newsroom/launch-autonomous-dubai/",
+      "title": "WeRide and Uber Launch Autonomous Robotaxi Rides in Dubai, Expanding AV Footprint in the UAE",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+    },
+    {
+      "id": "a305e0117b0ea68064a8",
+      "provider": "Uber",
+      "url": "https://www.uber.com/ae/en/newsroom/uber-weride-fullydriverless-abudhabi/",
+      "title": "WeRide and Uber Launch Middle East’s First Fully Driverless Robotaxi Commercial Operations in Abu Dhabi, UAE",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+    },
+    {
+      "id": "0d591e822244b7968e97",
+      "provider": "Lyft",
+      "url": "https://www.lyft.com/blog",
+      "title": "Every Trip to the Polls Needs a Way There: Lyft's 2026 Voting Access Program",
+      "publishedOn": "2026-04-23",
+      "detectedOn": "2026-09-24",
+      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+    },
+    {
+      "id": "90b72d1b48ee53a1680c",
+      "provider": "Lyft",
+      "url": "https://www.lyft.com/autonomous",
+      "title": "We're driving rideshare forward, together",
+      "publishedOn": "2025-07-01",
+      "detectedOn": "2026-09-24",
+      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+    },
+    {
+      "id": "33432157725b3106c987",
+      "provider": "Lyft",
+      "url": "https://www.lyft.com/blog/posts/lyft-driver-to-autonomous-vehicle-operations-journey",
+      "title": "From the Driver's Seat to Depot: How One Lyft Driver Is Helping Build Nashville's AV Future",
+      "publishedOn": "2026-04-23",
+      "detectedOn": "2026-09-24",
+      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+    },
+    {
+      "id": "b52fe4bebb869ecf0841",
+      "provider": "Lyft",
+      "url": "https://www.lyft.com/blog/posts/autonomous-revolution-drivers",
+      "title": "Motoring down the AV superhighway",
+      "publishedOn": "2025-03-20",
+      "detectedOn": "2026-09-24",
+      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+    }
+  ]
 }

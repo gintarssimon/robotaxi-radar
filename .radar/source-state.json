@@ -1,0 +1,62 @@
+{
+  "Waymo|https://waymo.com/": {
+    "hash": "860bdbed4dac9ac690aa740eeb26a4939e0ee67a84ac251ee630593ffca44213",
+    "checkedAt": "2026-09-24"
+  },
+  "Waymo|https://waymo.com/updates/": {
+    "hash": "ba1c96feaf349885c05da8a3f73d6ebc48756e76524da106fc58d06bf86a1409",
+    "checkedAt": "2026-09-24"
+  },
+  "Waymo|https://waymo.com/blog/2026/09/transit-rewards/": {
+    "hash": "b4e4c7b655a1cd40027b30aa04a7a8727d6640bef64f6838ea995ecb543a3245",
+    "checkedAt": "2026-09-24"
+  },
+  "Waymo|https://waymo.com/blog/2026/09/waymo-in-singapore/": {
+    "hash": "ce5bf5c772b3a8cfd44c4b16f41c82fd355534ec937e40c55dc50abd60782dd7",
+    "checkedAt": "2026-09-24"
+  },
+  "Waymo|https://waymo.com/blog/2026/09/allianzpartnership/": {
+    "hash": "6619590cf0b3a89d544dcdc3c27b04aa2f828644584e853afb41dec52fda1a14",
+    "checkedAt": "2026-09-24"
+  },
+  "Uber|https://www.uber.com/us/en/newsroom/": {
+    "hash": "bf44967dd0ea66dca9a7dd7d587994a4320a5e9402e98f29656560c221eec42c",
+    "checkedAt": "2026-09-24"
+  },
+  "Uber|https://www.uber.com/ae/en/newsroom/": {
+    "hash": "11b71ea43767cb4aba1d75d0227a163aec61f1d3e48d2c3148e5eb4a0dd16a65",
+    "checkedAt": "2026-09-24"
+  },
+  "Uber|https://waymo.com/": {
+    "hash": "860bdbed4dac9ac690aa740eeb26a4939e0ee67a84ac251ee630593ffca44213",
+    "checkedAt": "2026-09-24"
+  },
+  "Uber|https://www.uber.com/us/en/newsroom/wayve-on-uber/": {
+    "hash": "ef18b534f693a997705501de9e2a73f588960d55312e8ce9dff8984871c0a4dc",
+    "checkedAt": "2026-09-24"
+  },
+  "Uber|https://www.uber.com/ae/en/newsroom/launch-autonomous-dubai/": {
+    "hash": "5816dfea406ad7f25a299f6bafbb19cc137119ee262789c6c7d5e22d0dc20fc4",
+    "checkedAt": "2026-09-24"
+  },
+  "Uber|https://www.uber.com/ae/en/newsroom/uber-weride-fullydriverless-abudhabi/": {
+    "hash": "bb0233a1a075e58b78ddba0e944390ae4db7446d3a0fb30d87b5b304ccd4e6c1",
+    "checkedAt": "2026-09-24"
+  },
+  "Lyft|https://www.lyft.com/blog": {
+    "hash": "683001391991a3a4529484292b6a38b667103fea1aaaf019ab62f993b04d8c51",
+    "checkedAt": "2026-09-24"
+  },
+  "Lyft|https://www.lyft.com/autonomous": {
+    "hash": "c4010adc7083467e96ca409374607f5173a2178d367cace553303317f71f4702",
+    "checkedAt": "2026-09-24"
+  },
+  "Lyft|https://www.lyft.com/blog/posts/lyft-driver-to-autonomous-vehicle-operations-journey": {
+    "hash": "94abd7fd4c0e77f4fe8c8090a8b54d997786f0747e8cde59f7478854ee22432a",
+    "checkedAt": "2026-09-24"
+  },
+  "Lyft|https://www.lyft.com/blog/posts/autonomous-revolution-drivers": {
+    "hash": "fe8ae9a22f4c16f2f65db3264c6c9237e9f90eac775871017158a1e811356626",
+    "checkedAt": "2026-09-24"
+  }
+}
