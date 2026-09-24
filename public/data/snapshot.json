@@ -4,40 +4,50 @@
   "asOf": "2026-09-23",
   "coverage": "Recherchierte, unvollständige Startauswahl",
   "lastRun": {
-    "at": "2026-09-24T00:44:30.249Z",
+    "at": "2026-09-24T01:32:32.489Z",
     "status": "partial",
     "providers": {
       "Waymo": {
-        "pages": 5,
-        "accepted": 0,
+        "pages": 11,
+        "accepted": 34,
+        "announcements": 2,
+        "pendingReview": 6,
+        "ignored": 0,
         "rejected": 0,
-        "errors": [
-          {
-            "url": "https://waymo.com/",
-            "reason": "Unvollständige Waymo-Liste; keine Aktualisierung."
-          }
-        ]
+        "errors": [],
+        "discovered": 55
       },
       "Uber": {
-        "pages": 6,
-        "accepted": 1,
-        "rejected": 0,
-        "errors": []
-      },
-      "Lyft": {
-        "pages": 4,
-        "accepted": 0,
+        "pages": 11,
+        "accepted": 2,
+        "announcements": 0,
+        "pendingReview": 7,
+        "ignored": 0,
         "rejected": 0,
         "errors": [
           {
-            "url": "https://www.lyft.com/blog/posts/waymo-rides-now-available-on-the-lyft-app-in-nashville",
-            "reason": "Quellenabruf HTTP 429"
+            "url": "https://investor.uber.com/news-events/news/press-release-details/2025/WeRide-and-Uber-Launch-Middle-Easts-First-Fully-Driverless-Robotaxi-Commercial-Operations-in-Abu-Dhabi-UAE/",
+            "reason": "Quellenabruf HTTP 403"
           }
-        ]
+        ],
+        "discovered": 40
+      },
+      "Lyft": {
+        "pages": 10,
+        "accepted": 0,
+        "announcements": 0,
+        "pendingReview": 5,
+        "ignored": 0,
+        "rejected": 0,
+        "errors": [],
+        "discovered": 35
       },
       "Tesla": {
         "pages": 0,
         "accepted": 0,
+        "announcements": 0,
+        "pendingReview": 0,
+        "ignored": 0,
         "rejected": 0,
         "errors": [
           {
@@ -45,16 +55,13 @@
             "reason": "Quellenabruf HTTP 403"
           },
           {
-            "url": "https://www.tesla.com/robotaxi",
-            "reason": "Quellenabruf HTTP 403"
-          },
-          {
             "reason": "Keine Quelle abrufbar"
           }
-        ]
+        ],
+        "discovered": 0
       }
     },
-    "changed": 1
+    "changed": 18
   },
   "records": [
     {
@@ -64,20 +71,30 @@
       "operator": "Waymo",
       "platform": "Uber",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-austin-waymo",
@@ -86,20 +103,30 @@
       "operator": "Waymo",
       "platform": "Uber",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-dallas-waymo",
@@ -108,20 +135,30 @@
       "operator": "Waymo",
       "platform": "Waymo",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-denver-waymo",
@@ -130,20 +167,30 @@
       "operator": "Waymo",
       "platform": "Waymo",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-houston-waymo",
@@ -152,20 +199,30 @@
       "operator": "Waymo",
       "platform": "Waymo",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-las-vegas-waymo",
@@ -174,20 +231,30 @@
       "operator": "Waymo",
       "platform": "Waymo",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-los-angeles-waymo",
@@ -196,20 +263,30 @@
       "operator": "Waymo",
       "platform": "Waymo",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-miami-waymo",
@@ -218,20 +295,30 @@
       "operator": "Waymo",
       "platform": "Waymo",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-nashville-waymo",
@@ -240,20 +327,30 @@
       "operator": "Waymo",
       "platform": "Waymo",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-orlando-waymo",
@@ -262,20 +359,30 @@
       "operator": "Waymo",
       "platform": "Waymo",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-phoenix-waymo",
@@ -284,20 +391,30 @@
       "operator": "Waymo",
       "platform": "Waymo",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-san-antonio-waymo",
@@ -306,20 +423,30 @@
       "operator": "Waymo",
       "platform": "Waymo",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-san-diego-waymo",
@@ -328,20 +455,30 @@
       "operator": "Waymo",
       "platform": "Waymo",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-san-francisco-waymo",
@@ -350,20 +487,30 @@
       "operator": "Waymo",
       "platform": "Waymo",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-tampa-waymo",
@@ -372,20 +519,30 @@
       "operator": "Waymo",
       "platform": "Waymo",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Der Marker bezeichnet die Stadt. Das konkrete Fahrgebiet und der Zugang können eingeschränkt sein.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-baltimore-waymo",
@@ -398,16 +555,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-boston-waymo",
@@ -420,16 +579,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-charlotte-waymo",
@@ -442,16 +603,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-chicago-waymo",
@@ -464,16 +627,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-detroit-waymo",
@@ -486,16 +651,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-london-waymo",
@@ -513,22 +680,30 @@
         "end": "2026-12-31",
         "precision": "year"
       },
-      "notes": "Als künftiger Markt gelistet. Zieljahr 2026 laut ursprünglicher Ankündigung; kein taggenauer Start bestätigt.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": [],
+      "targetSource": null,
       "additionalSources": [
         {
           "url": "https://waymo.com/blog/2025/10/hello-london-your-waymo-ride-is-arriving/",
           "title": "Waymo · Ankündigung London",
           "publishedOn": "2025-10-15",
           "dynamic": false,
+          "checkedAt": "2026-09-23"
+        },
+        {
+          "url": "https://waymo.com/",
+          "title": "Waymo · Serving Riders In / Up Next",
+          "publishedOn": null,
+          "dynamic": true,
           "checkedAt": "2026-09-23"
         }
       ]
@@ -544,16 +719,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-new-orleans-waymo",
@@ -566,16 +743,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-new-york-waymo",
@@ -588,16 +767,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-philadelphia-waymo",
@@ -610,16 +791,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-pittsburgh-waymo",
@@ -632,16 +815,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-portland-waymo",
@@ -654,16 +839,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-sacramento-waymo",
@@ -676,16 +863,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-seattle-waymo",
@@ -698,16 +887,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-st-louis-waymo",
@@ -720,16 +911,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-tokyo-waymo",
@@ -742,16 +935,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-washington-waymo",
@@ -764,16 +959,18 @@
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Auf der Anbieterseite als künftiger Markt geführt. Das ist kein Beleg für einen bereits laufenden Fahrgastbetrieb.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "waymo-singapore-waymo",
@@ -786,21 +983,47 @@
       "announcedOn": "2026-09-17",
       "launchedOn": null,
       "target": {
-        "label": "2028",
         "start": "2028-01-01",
         "end": "2028-12-31",
-        "precision": "year"
+        "precision": "year",
+        "label": "2028"
       },
-      "notes": "Kommerzieller Start für 2028 angekündigt; Vorbereitung mit Spezialisten für 2027 geplant. Behördliche Freigaben bleiben Voraussetzung.",
-      "review": "source-reviewed",
+      "extraction": "announcement",
+      "evidence": {
+        "city": "Singapore, Next Stop: Bringing Scalable, Safe Autonomous Mobility to the",
+        "launch": "rvice to Singapore via the Waymo app in 2028."
+      },
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "announced",
+          "driving": "unknown",
+          "target": {
+            "label": "2028",
+            "start": "2028-01-01",
+            "end": "2028-12-31",
+            "precision": "year"
+          },
+          "sourceURL": "https://waymo.com/blog/2026/09/waymo-in-singapore/"
+        }
+      ],
+      "notes": "Offizielle Ankündigung automatisch erkannt. Geplanter öffentlicher Start: 2028. Vorbereitung oder Tests sind kein belegter öffentlicher Fahrgastbetrieb. Genehmigungen und Terminänderungen bleiben möglich.",
       "source": {
         "url": "https://waymo.com/blog/2026/09/waymo-in-singapore/",
-        "title": "Waymo · Ankündigung Singapur",
+        "title": "Singapore, Next Stop: Bringing Scalable, Safe Autonomous Mobility to the Lion City",
         "publishedOn": "2026-09-17",
         "dynamic": false,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": {
+        "url": "https://waymo.com/blog/2026/09/waymo-in-singapore/",
+        "title": "Singapore, Next Stop: Bringing Scalable, Safe Autonomous Mobility to the Lion City",
+        "publishedOn": "2026-09-17",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "additionalSources": []
     },
     {
       "id": "tesla-austin-tesla",
@@ -941,20 +1164,30 @@
       "operator": "Waymo",
       "platform": "Uber",
       "status": "live",
-      "driving": "driverless",
+      "driving": "unknown",
       "announcedOn": null,
       "launchedOn": null,
       "target": null,
-      "notes": "Waymo verweist für diese Stadt auf die Buchung über Uber. Der zugehörige Waymo-Eintrag bildet dieselbe Partnerschaft ab.",
-      "review": "source-reviewed",
+      "notes": "Automatisch aus einer ausdrücklich bezeichneten Stadtliste erkannt. Die Quelle nennt hier keinen genauen Starttermin. Der Marker ist kein Betriebsgebiet.",
+      "review": "automatic",
+      "history": [
+        {
+          "at": "2026-09-24",
+          "status": "live",
+          "driving": "driverless",
+          "target": null,
+          "sourceURL": "https://waymo.com/"
+        }
+      ],
       "source": {
         "url": "https://waymo.com/",
-        "title": "Waymo · Serving Riders In / Up Next",
+        "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-23"
+        "checkedAt": "2026-09-24"
       },
-      "history": []
+      "targetSource": null,
+      "additionalSources": []
     },
     {
       "id": "uber-atlanta-waymo",
@@ -1053,6 +1286,46 @@
         "checkedAt": "2026-09-23"
       },
       "history": []
+    },
+    {
+      "id": "waymo-munich-waymo",
+      "provider": "Waymo",
+      "cityKey": "munich",
+      "operator": "Waymo",
+      "platform": "Waymo",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-08-25",
+      "launchedOn": null,
+      "target": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "precision": "year",
+        "label": "Ende 2027",
+        "qualifier": "late"
+      },
+      "extraction": "announcement",
+      "evidence": {
+        "city": "Servus München: Waymo is Coming to Germany",
+        "launch": "n commercial ride-hailing to the public towards the end of 2027."
+      },
+      "review": "automatic",
+      "history": [],
+      "notes": "Offizielle Ankündigung automatisch erkannt. Geplanter öffentlicher Start: Ende 2027. Vorbereitung oder Tests sind kein belegter öffentlicher Fahrgastbetrieb. Genehmigungen und Terminänderungen bleiben möglich.",
+      "source": {
+        "url": "https://waymo.com/blog/2026/08/waymo-in-munich/",
+        "title": "Servus München: Waymo is Coming to Germany",
+        "publishedOn": "2026-08-25",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "targetSource": {
+        "url": "https://waymo.com/blog/2026/08/waymo-in-munich/",
+        "title": "Servus München: Waymo is Coming to Germany",
+        "publishedOn": "2026-08-25",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      }
     }
   ],
   "reviewQueue": [
@@ -1163,6 +1436,168 @@
       "publishedOn": "2025-03-20",
       "detectedOn": "2026-09-24",
       "reason": "Neue Quelle entdeckt · Inhalt prüfen"
+    },
+    {
+      "id": "84c235df638969c02b32",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/09/ride-in-las-vegas/",
+      "title": "Vegas, Deal Us In! We’re welcoming riders today",
+      "publishedOn": "2026-09-14",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "98d923474bb51d324782",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/09/ride-in-denver-san-diego-tampa/",
+      "title": "Welcoming our first riders in Denver, San Diego, and Tampa",
+      "publishedOn": "2026-09-01",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "97a8beb19de3f58965be",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/08/10ailessons/",
+      "title": "10 AI Lessons from Driving 200+ Million Fully Autonomous Miles",
+      "publishedOn": "2026-08-26",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "b8cae41c0a15c786b0bc",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/05/welcoming-riders-in-the-ojai/",
+      "title": "Same Driver, new vehicle: Welcoming our first riders trips in the Ojai",
+      "publishedOn": "2026-05-28",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "da3437599f0ccbe32772",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation/",
+      "title": "The Waymo World Model: A New Frontier For Autonomous Driving Simulation",
+      "publishedOn": "2026-02-06",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "e44a333f73b34da137ba",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2025/12/demonstrably-safe-ai-for-autonomous-driving/",
+      "title": "Demonstrably Safe AI For Autonomous Driving",
+      "publishedOn": "2025-12-09",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "71da511ec8bfc41e2cc6",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/uber-golf/",
+      "title": "Uber is Swinging Into Spring With Uber Golf",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "1883bec3242f614a06c0",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/uber-backgroundchecks/",
+      "title": "A New Standard for Background Checks",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "fbee65a4d2b991ad00e1",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/traveling-for-soccer-this-summer/",
+      "title": "Traveling for soccer this summer? Uber has got you covered.",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "3d0fcf77b9fb5afa7642",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/the-shortcut-your-grocery-lists-been-waiting-for/",
+      "title": "The shortcut your grocery list's been waiting for",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "72c1790f579db19e0969",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/the-2026-uber-lost-found-index/",
+      "title": "The 10th Annual Uber Lost & Found Index",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "928614276b219630f0c6",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/simplerfasteruber/",
+      "title": "Building a simpler, faster Uber",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "f412e6e2f4a153727926",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/senior-accounts-update-2026/",
+      "title": "More options for seniors",
+      "publishedOn": null,
+      "detectedOn": "2026-09-24",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "d6ddc323e58ba78f0ff2",
+      "provider": "Lyft",
+      "url": "https://www.lyft.com/blog/posts/were-setting-a-multi-sensor-safety-standard-for-autonomous-rides",
+      "title": "Lyft's Commitment to Autonomous Vehicle Safety | Lyft Blog",
+      "publishedOn": "2026-06-23",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "4310ddb9a21c3b54e8b5",
+      "provider": "Lyft",
+      "url": "https://www.lyft.com/blog/posts/beyond-the-wheel-how-lyfts-flexdrive-is-shaping-the-future-of-autonomous",
+      "title": "Lyft's autonomous revolution: Where drivers and technology move forward together",
+      "publishedOn": "2025-04-10",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "927526e31c56538b4891",
+      "provider": "Lyft",
+      "url": "https://www.lyft.com/blog/posts/a-new-chapter-for-rideshare-lyft-and-may-mobility-bring-autonomous-vehicles",
+      "title": "A New Chapter for Rideshare: Lyft and May Mobility Bring Autonomous Vehicles to Midtown Atlanta",
+      "publishedOn": "2025-09-10",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "a747a9b688f6225b7a14",
+      "provider": "Lyft",
+      "url": "https://www.lyft.com/blog/posts/waymo-rides-now-available-on-the-lyft-app-in-nashville",
+      "title": "Riders can be matched with Waymo on Lyft in Nashville.",
+      "publishedOn": "2026-09-09",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "8b19610b3c3ef84eb196",
+      "provider": "Lyft",
+      "url": "https://www.lyft.com/blog/posts/shaping-the-future-of-rideshare-together",
+      "title": "Shaping the Future of Rideshare, Together Introducing the Lyft Driver Autonomous Forum",
+      "publishedOn": "2025-06-26",
+      "detectedOn": "2026-09-24",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
     }
   ]
 }
