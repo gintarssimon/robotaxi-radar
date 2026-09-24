@@ -7,18 +7,36 @@ export function isStale(record, now = new Date()) {
   const anchor = record.source.dynamic ? record.source.checkedAt : (record.source.publishedOn || record.source.checkedAt);
   return !anchor || (now - new Date(day(anchor) + 'T00:00:00Z')) / 86400000 > (record.source.dynamic ? 14 : 90);
 }
+export const isOperating = record => ['live','limited'].includes(record.status);
+export function isDrivingStale(record, now = new Date()) {
+  return record.driving !== 'unknown' && isStale({source:record.drivingSource || record.source}, now);
+}
+export function drivingLabel(record, now = new Date()) {
+  if(!isOperating(record) && record.driving==='unknown')return record.status==='announced'?'Betriebsform noch offen':'Keine Angabe zur Fahrerlosigkeit';
+  return DRIVING[record.driving]+(isDrivingStale(record,now)?' · älterer Beleg':'');
+}
 export function isOverdue(record, now = new Date()) { return record.status === 'announced' && record.target?.end && record.target.end < day(now.toISOString()); }
 export function filterRecords(records, filters, cities) {
   const search = filters.search.trim().toLocaleLowerCase('de');
-  return records.filter(r => filters.providers.includes(r.provider) && (filters.region === 'all' || cities[r.cityKey]?.region === filters.region) && (filters.status === 'all' || r.status === filters.status) && (!search || `${cities[r.cityKey]?.name} ${cities[r.cityKey]?.country}`.toLocaleLowerCase('de').includes(search)));
+  return records.filter(r => filters.providers.includes(r.provider) && (filters.region === 'all' || cities[r.cityKey]?.region === filters.region) && (filters.status === 'all' || (filters.status==='operating'?isOperating(r):r.status === filters.status)) && (!search || `${cities[r.cityKey]?.name} ${cities[r.cityKey]?.country}`.toLocaleLowerCase('de').includes(search)));
 }
 export function rankRecords(records, now = new Date()) {
   return Object.keys(COLORS).map(provider => {
-    const own = records.filter(r => r.provider === provider && r.driving === 'driverless' && !isStale(r, now));
-    const live = new Set(own.filter(r => r.status === 'live').map(r => r.cityKey));
-    const limited = new Set(own.filter(r => r.status === 'limited' && !live.has(r.cityKey)).map(r => r.cityKey));
-    const uncertain=new Set(records.filter(r=>r.provider===provider && ['live','limited'].includes(r.status) && r.driving==='unknown').map(r=>r.cityKey));
-    return {provider, count: live.size, limited: limited.size, uncertain: uncertain.size};
-  }).sort((a,b) => b.count - a.count || b.limited - a.limited || a.provider.localeCompare(b.provider));
+    const own=records.filter(r=>r.provider===provider&&isOperating(r)),groups=new Map();
+    for(const record of own){if(!groups.has(record.cityKey))groups.set(record.cityKey,[]);groups.get(record.cityKey).push(record);}
+    const cities=[...groups].map(([cityKey,rows])=>({cityKey,id:rows[0].id,
+      limited:rows.every(r=>r.status==='limited'),
+      stale:rows.every(r=>isStale(r,now)),
+      driverless:rows.some(r=>r.driving==='driverless'&&!isStale(r,now)&&!isDrivingStale(r,now)),
+      supervised:rows.some(r=>r.driving==='supervised'&&!isStale(r,now)&&!isDrivingStale(r,now))
+    }));
+    return {provider,count:cities.length,cities,
+      limited:cities.filter(c=>c.limited).length,
+      stale:cities.filter(c=>c.stale).length,
+      driverless:cities.filter(c=>c.driverless).length,
+      supervised:cities.filter(c=>c.supervised&&!c.driverless).length,
+      uncertain:cities.filter(c=>!c.driverless&&!c.supervised).length
+    };
+  }).sort((a,b) => b.count - a.count || a.provider.localeCompare(b.provider));
 }
 export function safeURL(raw) { try { const url = new URL(raw); return url.protocol === 'https:' && !url.username && !url.password ? url.href : null; } catch { return null; } }

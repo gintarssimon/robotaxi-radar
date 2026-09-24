@@ -1,6 +1,6 @@
 import {load} from 'cheerio';
 import {canonicalURL,validDay} from './core.mjs';
-export const PARSER_VERSION=3;
+export const PARSER_VERSION=4;
 const compact=s=>String(s||'').replace(/\s+/g,' ').trim();
 function textOf(selection){
   const parts=[];
