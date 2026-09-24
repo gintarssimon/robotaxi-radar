@@ -1,0 +1,37 @@
+name: Robotaxi Radar aktualisieren
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: robotaxi-radar-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run refresh
+      - name: Aktualisierten Datenstand behalten
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/snapshot.json .radar/source-state.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Aktualisiere Quellenstand'
+            git push
+          fi
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ROBOTAXIRADAR }}
+          projectId: robotaxiradar
+          channelId: live
