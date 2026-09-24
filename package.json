@@ -1,0 +1,23 @@
+{
+  "name": "robotaxi-radar",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "setup": "node scripts/setup.mjs",
+    "refresh": "node scripts/refresh-free.mjs",
+    "automation": "node scripts/setup-automation.mjs",
+    "github-package": "node scripts/github-package.mjs"
+  },
+  "devDependencies": {
+    "leaflet": "1.9.4",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2"
+  },
+  "dependencies": {
+    "cheerio": "1.1.2"
+  }
+}

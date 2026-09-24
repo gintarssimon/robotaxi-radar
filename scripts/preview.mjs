@@ -1,0 +1,17 @@
+import {readFile,writeFile} from 'node:fs/promises';
+let html=await readFile('public/index.html','utf8');
+const css=await readFile('public/style.css','utf8');
+const leafCSS=await readFile('public/vendor/leaflet.css','utf8');
+const leafJS=(await readFile('public/vendor/leaflet.js','utf8')).replace(/\/\/# sourceMappingURL=.*$/gm,'');
+const favicon=Buffer.from(await readFile('public/favicon.svg')).toString('base64');
+const data={};for(const name of ['seed','cities','world'])data[`data/${name}.json`]=JSON.parse(await readFile(`public/data/${name}.json`,'utf8'));
+const safeScript=s=>s.replace(/<\/script/gi,'<\\/script');
+const model=(await readFile('public/model.js','utf8')).replace(/export /g,'');
+const app=(await readFile('public/app.js','utf8')).replace(/^import[^\n]*\n/,'').replace(/\bfetch\(/g,'previewFetch(');
+const embedded=`const embeddedData=${JSON.stringify(data)};async function previewFetch(url){if(url==='/api/snapshot')return new Response(JSON.stringify(embeddedData['data/seed.json']),{status:200});if(embeddedData[url])return new Response(JSON.stringify(embeddedData[url]),{status:200});throw new Error('Offline-Vorschau');}`;
+html=html.replace('href="favicon.svg"',`href="data:image/svg+xml;base64,${favicon}"`).replace('src="favicon.svg"',`src="data:image/svg+xml;base64,${favicon}"`);
+html=html.replace('<link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="style.css">',`<style>${leafCSS}\n${css}</style>`);
+html=html.replace('<script defer src="vendor/leaflet.js"></script><script type="module" src="app.js"></script>','');
+html=html.replace('</body>',`<script>${safeScript(leafJS)}</script><script type="module">${safeScript(model+'\n'+embedded+'\n'+app)}</script></body>`);
+await writeFile('../Robotaxi-Radar-Vorschau.html',html);
+console.log('Offline-Vorschau erstellt.');
