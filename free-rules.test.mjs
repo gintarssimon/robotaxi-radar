@@ -1,0 +1,9 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {parseAvailability} from '../scripts/lib/free-rules.mjs';
+const cities={austin:{name:'Austin'},atlanta:{name:'Atlanta'},london:{name:'London'},houston:{name:'Houston'}};
+const waymo={url:'https://waymo.com/',title:'Waymo',text:'Our fully autonomous service. Serving Riders In Austin, TX Ride on Uber Atlanta, GA Ride on Uber Houston, TX Up Next London, UK Sign up for updates'};
+test('Explicit Waymo groups separate launched and planned cities',()=>{const records=parseAvailability('Waymo',waymo,cities,'2026-09-23');assert.equal(records.find(r=>r.cityKey==='london').status,'announced');assert.equal(records.find(r=>r.cityKey==='austin').status,'live');assert.equal(records.find(r=>r.cityKey==='austin').platform,'Uber');assert.equal(records.find(r=>r.cityKey==='houston').platform,'Waymo');assert.equal(records.find(r=>r.cityKey==='london').launchedOn,null);});
+test('Uber gets only cities explicitly paired with Ride on Uber',()=>{const records=parseAvailability('Uber',waymo,cities,'2026-09-23');assert.deepEqual(records.map(r=>r.cityKey),['austin','atlanta']);});
+test('Tesla list does not infer driverless operations or exact dates',()=>{const page={url:'https://www.tesla.com/support/robotaxi',title:'Robotaxi',text:'Currently, we provide service in limited areas of Austin and Houston, Texas. Read about Atlanta next.'};const records=parseAvailability('Tesla',page,cities,'2026-09-23');assert.deepEqual(records.map(r=>r.cityKey),['austin','houston']);assert.ok(records.every(r=>r.driving==='unknown'&&r.launchedOn===null));});
+test('Changed structure fails closed rather than promoting announcements',()=>{assert.throws(()=>parseAvailability('Waymo',{...waymo,text:'We plan to launch Austin and London.'},cities,'2026-09-23'));assert.throws(()=>parseAvailability('Tesla',{url:'https://www.tesla.com/support/robotaxi',text:'Robotaxi may come to Austin.'},cities,'2026-09-23'));});
