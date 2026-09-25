@@ -4,7 +4,12 @@
     "lat": 37.7749,
     "lng": -122.4194,
     "country": "USA",
-    "region": "Nordamerika"
+    "region": "Nordamerika",
+    "aliases": [
+      "San Francisco",
+      "San Francisco Bay Area",
+      "SF Bay Area"
+    ]
   },
   "los-angeles": {
     "name": "Los Angeles",
@@ -348,5 +353,19 @@
     "lng": 121.4737,
     "country": "China",
     "region": "Asien"
+  },
+  "madrid": {
+    "name": "Madrid",
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "country": "Spanien",
+    "region": "Europa"
+  },
+  "zagreb": {
+    "name": "Zagreb",
+    "lat": 45.815,
+    "lng": 15.9819,
+    "country": "Kroatien",
+    "region": "Europa"
   }
 }

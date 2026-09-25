@@ -6,3 +6,5 @@
 /* Availability is counted separately from driving-mode evidence. */
 .comparison [data-provider=Uber]{--provider:#79aecd}.rank-detail{font-size:.73rem;color:#c0d5df;margin:7px 0 0;line-height:1.55}.rank-cities{font-size:.75rem;color:#c0d5df;margin-top:7px}.rank-cities summary{cursor:pointer;text-decoration:underline;text-underline-offset:3px}.rank-cities>div{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}.rank-cities button{font-size:.73rem;padding:3px 7px;border:1px solid #55717c;border-radius:4px;color:#e4f0f5;background:transparent}.rank-cities button:hover{background:#294650}.pin-core.testing{background:#fff;color:var(--pin);border:3px dashed var(--pin)}.pin-core.paused{border-radius:5px;opacity:.65}.driving-source{font-size:.85rem;overflow-wrap:anywhere}
 @media(max-width:580px){.comparison #ranking{display:block}.rank-line{gap:12px}.rank-value{white-space:nowrap}}
+
+.badge.preparation{background:#edf0f2;color:#536370}.source-health-panel{padding:20px;margin:24px 0}.source-health-panel summary{cursor:pointer;font-weight:700}.source-health-panel>p{margin:12px 0;font-size:.8rem;color:var(--muted)}#review-queue{max-height:620px;overflow:auto}

@@ -1,0 +1,704 @@
+{
+  "version": "2026-09-24.6",
+  "asOf": "2026-09-24",
+  "records": [
+    {
+      "id": "uber-london-wayve",
+      "provider": "Uber",
+      "cityKey": "london",
+      "operator": "Wayve",
+      "platform": "Uber",
+      "status": "live",
+      "driving": "supervised",
+      "announcedOn": null,
+      "launchedOn": null,
+      "target": null,
+      "source": {
+        "url": "https://www.uber.com/gb/en/newsroom/wayve-on-uber/",
+        "title": "Uber / Wayve · London · offizielle Meldung",
+        "publishedOn": "2026-09-02",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": {
+        "url": "https://www.uber.com/gb/en/newsroom/wayve-on-uber/",
+        "title": "Uber / Wayve · London · offizielle Meldung",
+        "publishedOn": "2026-09-02",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "targetSource": null,
+      "notes": "Öffentliche Fahrten über Uber mit Wayve-Technologie. Zum Start fährt geschultes Begleitpersonal mit. Die Veröffentlichung belegt den Betrieb, aber unterschiedliche regionale Veröffentlichungsdaten erlauben keinen einheitlichen exakten Starttag.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-dubai-weride",
+      "provider": "Uber",
+      "cityKey": "dubai",
+      "operator": "WeRide",
+      "platform": "Uber",
+      "status": "live",
+      "driving": "driverless",
+      "announcedOn": null,
+      "launchedOn": "2026-03-31",
+      "target": null,
+      "source": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/WeRide-and-Uber-Launch-Fully-Driverless-Robotaxi-Fare-Charging-Operations-in-Dubai-Accelerating-Autonomous-Mobility-in-the-Middle-East-2026-NSiF0EFKhd/default.aspx",
+        "title": "Uber / WeRide · Dubai · offizielle Meldung",
+        "publishedOn": "2026-03-31",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/WeRide-and-Uber-Launch-Fully-Driverless-Robotaxi-Fare-Charging-Operations-in-Dubai-Accelerating-Autonomous-Mobility-in-the-Middle-East-2026-NSiF0EFKhd/default.aspx",
+        "title": "Uber / WeRide · Dubai · offizielle Meldung",
+        "publishedOn": "2026-03-31",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "targetSource": null,
+      "notes": "Fahrerlose öffentliche Fahrten über Uber in Teilen von Jumeirah und Umm Suqeim. Kein stadtweites Betriebsgebiet.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-zagreb-pony-ai",
+      "provider": "Uber",
+      "cityKey": "zagreb",
+      "operator": "Pony.ai",
+      "platform": "Uber",
+      "status": "live",
+      "driving": "supervised",
+      "announcedOn": null,
+      "launchedOn": "2026-08-19",
+      "target": null,
+      "source": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Autonomous-Rides-in-Europe/default.aspx",
+        "title": "Uber / Pony.ai · Zagreb · offizielle Meldung",
+        "publishedOn": "2026-08-19",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Autonomous-Rides-in-Europe/default.aspx",
+        "title": "Uber / Pony.ai · Zagreb · offizielle Meldung",
+        "publishedOn": "2026-08-19",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "targetSource": null,
+      "notes": "Über Uber buchbare Fahrten mit Pony.ai-Technologie, betrieben durch Verne. Zum Start überwacht ein Fahrzeugführer am Steuer die Fahrt. Das frühere Verne-Angebot und der spätere Uber-Start sind unterschiedliche Ereignisse.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-riyadh-weride",
+      "provider": "Uber",
+      "cityKey": "riyadh",
+      "operator": "WeRide",
+      "platform": "Uber",
+      "status": "limited",
+      "driving": "supervised",
+      "announcedOn": null,
+      "launchedOn": "2025-10-24",
+      "target": null,
+      "source": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2025/Uber-and-WeRide-Begin-Offering-Autonomous-Robotaxi-Passenger-Rides-in-Saudi-Arabia/default.aspx",
+        "title": "Uber / WeRide · Riad · offizielle Meldung",
+        "publishedOn": "2025-10-24",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2025/Uber-and-WeRide-Begin-Offering-Autonomous-Robotaxi-Passenger-Rides-in-Saudi-Arabia/default.aspx",
+        "title": "Uber / WeRide · Riad · offizielle Meldung",
+        "publishedOn": "2025-10-24",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "targetSource": null,
+      "notes": "Öffentliche Fahrten auf ausgewählten Strecken zwischen Roshn Front und Princess Noura University. Zum Start mit Fahrzeugbetreuer. Die ältere Startmeldung bestätigt nicht die heutige Betriebsform.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-zurich-weride",
+      "provider": "Uber",
+      "cityKey": "zurich",
+      "operator": "WeRide",
+      "platform": "Uber",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-06-17",
+      "launchedOn": null,
+      "target": {
+        "start": "2026-01-01",
+        "end": "2026-12-31",
+        "precision": "year",
+        "label": "2026"
+      },
+      "source": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/WeRide-and-Uber-Plan-to-Launch-Commercial-Robotaxi-Service-in-Zurich-Expanding-European-Partnership-2026-lbSmf_S3R_/default.aspx",
+        "title": "Uber / WeRide · Zürich · offizielle Meldung",
+        "publishedOn": "2026-06-17",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/WeRide-and-Uber-Plan-to-Launch-Commercial-Robotaxi-Service-in-Zurich-Expanding-European-Partnership-2026-lbSmf_S3R_/default.aspx",
+        "title": "Uber / WeRide · Zürich · offizielle Meldung",
+        "publishedOn": "2026-06-17",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "notes": "Geplanter kommerzieller Dienst in der Region Zürich mit Rydera als Flottenbetreiber. Öffentliche Buchung über Uber vorbehaltlich Genehmigung.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-madrid-weride",
+      "provider": "Uber",
+      "cityKey": "madrid",
+      "operator": "WeRide",
+      "platform": "Uber",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-06-02",
+      "launchedOn": null,
+      "target": {
+        "start": "2026-01-01",
+        "end": "2026-12-31",
+        "precision": "year",
+        "label": "2026"
+      },
+      "source": {
+        "url": "https://ir.weride.ai/news-releases/news-release-details/weride-uber-and-avomo-bring-robotaxis-madrid",
+        "title": "Uber / WeRide · Madrid · offizielle Meldung",
+        "publishedOn": "2026-06-02",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": {
+        "url": "https://ir.weride.ai/news-releases/news-release-details/weride-uber-and-avomo-bring-robotaxis-madrid",
+        "title": "Uber / WeRide · Madrid · offizielle Meldung",
+        "publishedOn": "2026-06-02",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "notes": "Öffentlicher kommerzieller Pilot mit AVOMO in der Region Madrid geplant, zunächst mit Fahrzeugbetreuern. Eine Genehmigung allein ist kein Beleg für bereits buchbare Fahrten.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-tokyo-wayve",
+      "provider": "Uber",
+      "cityKey": "tokyo",
+      "operator": "Wayve",
+      "platform": "Uber",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-08-13",
+      "launchedOn": null,
+      "target": {
+        "start": "2026-01-01",
+        "end": "2026-12-31",
+        "precision": "year",
+        "label": "Ende 2026",
+        "qualifier": "late"
+      },
+      "source": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Partners-with-Hinomaru-Kotsu-for-Robotaxi-Pilot-Deployment-in-Tokyo/default.aspx",
+        "title": "Uber / Wayve · Tokio · offizielle Meldung",
+        "publishedOn": "2026-08-13",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Partners-with-Hinomaru-Kotsu-for-Robotaxi-Pilot-Deployment-in-Tokyo/default.aspx",
+        "title": "Uber / Wayve · Tokio · offizielle Meldung",
+        "publishedOn": "2026-08-13",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "notes": "Öffentlicher Pilot mit Nissan-Fahrzeugen und Hinomaru Kotsu als Betreiber geplant. Anfangs sollen Sicherheitsfahrer mitfahren.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-munich-autobrains",
+      "provider": "Uber",
+      "cityKey": "munich",
+      "operator": "Autobrains",
+      "platform": "Uber",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-06-01",
+      "launchedOn": null,
+      "target": null,
+      "source": {
+        "url": "https://www.uber.com/de/de/newsroom/munich-robotaxi-service/",
+        "title": "Uber / Autobrains · München · offizielle Meldung",
+        "publishedOn": "2026-06-01",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": null,
+      "notes": "München ist als erste Einsatzstadt des gemeinsamen Robotaxi-Programms vorgesehen. Öffentlicher Starttermin offen; Umsetzung vorbehaltlich Genehmigung.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-munich-momenta",
+      "provider": "Uber",
+      "cityKey": "munich",
+      "operator": "Momenta",
+      "platform": "Uber",
+      "status": "preparation",
+      "driving": "unknown",
+      "announcedOn": "2025-09-08",
+      "launchedOn": null,
+      "target": null,
+      "source": {
+        "url": "https://www.uber.com/de/de/newsroom/uber-momenta-muenchen/",
+        "title": "Uber / Momenta · München · offizielle Meldung",
+        "publishedOn": "2025-09-08",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": null,
+      "notes": "Level-4-Tests für München im Jahr 2026 angekündigt. Die Meldung belegt weder einen öffentlichen Start noch, dass die geplanten Tests tatsächlich begonnen haben.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-arlington-may-mobility",
+      "provider": "Uber",
+      "cityKey": "arlington",
+      "operator": "May Mobility",
+      "platform": "Uber",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-09-16",
+      "launchedOn": null,
+      "target": {
+        "start": "2026-10-01",
+        "end": "2027-03-31",
+        "precision": "range",
+        "label": "01.10.2026 – 31.03.2027"
+      },
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/2111542/000121390026100367/ea030470201ex99-1.htm",
+        "title": "Uber / May Mobility · Arlington, Texas · offizielle Meldung",
+        "publishedOn": "2026-09-16",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": {
+        "url": "https://www.sec.gov/Archives/edgar/data/2111542/000121390026100367/ea030470201ex99-1.htm",
+        "title": "Uber / May Mobility · Arlington, Texas · offizielle Meldung",
+        "publishedOn": "2026-09-16",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "notes": "Kommerzielle Fahrten über Uber für Q4 2026 oder Q1 2027 vorgesehen. Diese neuere Unternehmensmeldung ersetzt den früheren Zielzeitraum.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-san-francisco-nuro",
+      "provider": "Uber",
+      "cityKey": "san-francisco",
+      "operator": "Nuro",
+      "platform": "Uber",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-06-17",
+      "launchedOn": null,
+      "target": {
+        "start": "2026-01-01",
+        "end": "2026-12-31",
+        "precision": "year",
+        "label": "2026"
+      },
+      "source": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Nuro-and-Lucid-to-Bring-Robotaxi-Service-to-Houston-in-2027/default.aspx",
+        "title": "Uber / Nuro · San Francisco Bay Area · offizielle Meldung",
+        "publishedOn": "2026-06-17",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Nuro-and-Lucid-to-Bring-Robotaxi-Service-to-Houston-in-2027/default.aspx",
+        "title": "Uber / Nuro · San Francisco Bay Area · offizielle Meldung",
+        "publishedOn": "2026-06-17",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "notes": "Öffentlicher Start in der San Francisco Bay Area mit Lucid-Fahrzeugen und Nuro-Technologie geplant. Beaufsichtigte Testfahrten belegen noch keinen öffentlichen Dienst.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-houston-nuro",
+      "provider": "Uber",
+      "cityKey": "houston",
+      "operator": "Nuro",
+      "platform": "Uber",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-06-17",
+      "launchedOn": null,
+      "target": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "precision": "year",
+        "label": "Mitte 2027",
+        "qualifier": "mid"
+      },
+      "source": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Nuro-and-Lucid-to-Bring-Robotaxi-Service-to-Houston-in-2027/default.aspx",
+        "title": "Uber / Nuro · Houston · offizielle Meldung",
+        "publishedOn": "2026-06-17",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Nuro-and-Lucid-to-Bring-Robotaxi-Service-to-Houston-in-2027/default.aspx",
+        "title": "Uber / Nuro · Houston · offizielle Meldung",
+        "publishedOn": "2026-06-17",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "notes": "Houston ist als zweiter Markt des Uber/Nuro/Lucid-Programms vorgesehen. Beaufsichtigte Testfahrten laufen; öffentlicher Fahrgastbetrieb ist für Mitte 2027 geplant.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-los-angeles-moia",
+      "provider": "Uber",
+      "cityKey": "los-angeles",
+      "operator": "MOIA",
+      "platform": "Uber",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-04-08",
+      "launchedOn": null,
+      "target": {
+        "start": "2026-01-01",
+        "end": "2026-12-31",
+        "precision": "year",
+        "label": "Ende 2026",
+        "qualifier": "late"
+      },
+      "source": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/MOIA-America-to-deploy-autonomous-ID--Buzz-vehicles-on-the-Uber-platform-in-Los-Angeles-by-the-end-of-2026-2026-sJHS8F1vOr/default.aspx",
+        "title": "Uber / MOIA · Los Angeles · offizielle Meldung",
+        "publishedOn": "2026-04-08",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/MOIA-America-to-deploy-autonomous-ID--Buzz-vehicles-on-the-Uber-platform-in-Los-Angeles-by-the-end-of-2026-2026-sJHS8F1vOr/default.aspx",
+        "title": "Uber / MOIA · Los Angeles · offizielle Meldung",
+        "publishedOn": "2026-04-08",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "notes": "Autonome Volkswagen ID. Buzz werden getestet. Fahrten über Uber sind für Ende 2026 vorgesehen; ein tatsächlicher öffentlicher Start ist damit nicht bestätigt.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-san-francisco-rivian",
+      "provider": "Uber",
+      "cityKey": "san-francisco",
+      "operator": "Rivian",
+      "platform": "Uber",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-03-19",
+      "launchedOn": null,
+      "target": {
+        "start": "2028-01-01",
+        "end": "2028-12-31",
+        "precision": "year",
+        "label": "2028"
+      },
+      "source": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Rivian-Partner-to-Deploy-up-to-50000-Fully-Autonomous-Robotaxis-2026-TViR4R05gi/default.aspx",
+        "title": "Uber / Rivian · San Francisco Bay Area · offizielle Meldung",
+        "publishedOn": "2026-03-19",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Rivian-Partner-to-Deploy-up-to-50000-Fully-Autonomous-Robotaxis-2026-TViR4R05gi/default.aspx",
+        "title": "Uber / Rivian · San Francisco Bay Area · offizielle Meldung",
+        "publishedOn": "2026-03-19",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "notes": "Erste kommerzielle Einsätze autonomer Rivian R2 über Uber geplant. Technische Meilensteine und Genehmigungen bleiben Voraussetzung.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-miami-rivian",
+      "provider": "Uber",
+      "cityKey": "miami",
+      "operator": "Rivian",
+      "platform": "Uber",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-03-19",
+      "launchedOn": null,
+      "target": {
+        "start": "2028-01-01",
+        "end": "2028-12-31",
+        "precision": "year",
+        "label": "2028"
+      },
+      "source": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Rivian-Partner-to-Deploy-up-to-50000-Fully-Autonomous-Robotaxis-2026-TViR4R05gi/default.aspx",
+        "title": "Uber / Rivian · Miami · offizielle Meldung",
+        "publishedOn": "2026-03-19",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Rivian-Partner-to-Deploy-up-to-50000-Fully-Autonomous-Robotaxis-2026-TViR4R05gi/default.aspx",
+        "title": "Uber / Rivian · Miami · offizielle Meldung",
+        "publishedOn": "2026-03-19",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "notes": "Erste kommerzielle Einsätze autonomer Rivian R2 über Uber geplant. Technische Meilensteine und Genehmigungen bleiben Voraussetzung.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "lyft-london-baidu-apollo-go",
+      "provider": "Lyft",
+      "cityKey": "london",
+      "operator": "Baidu Apollo Go",
+      "platform": "Lyft",
+      "status": "testing",
+      "driving": "supervised",
+      "announcedOn": null,
+      "launchedOn": null,
+      "target": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "precision": "year",
+        "label": "2027"
+      },
+      "source": {
+        "url": "https://www.lyft.com/blog/posts/freenow-by-lyft-and-baidu-start-av-testing-in-london",
+        "title": "Lyft / Baidu Apollo Go · London · offizielle Meldung",
+        "publishedOn": "2026-07-28",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": {
+        "url": "https://www.lyft.com/blog/posts/freenow-by-lyft-and-baidu-start-av-testing-in-london",
+        "title": "Lyft / Baidu Apollo Go · London · offizielle Meldung",
+        "publishedOn": "2026-07-28",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "targetSource": {
+        "url": "https://www.lyft.com/blog/posts/freenow-by-lyft-and-baidu-start-av-testing-in-london",
+        "title": "Lyft / Baidu Apollo Go · London · offizielle Meldung",
+        "publishedOn": "2026-07-28",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "notes": "Freenow by Lyft und Baidu testen in London zunächst mit Sicherheitsbetreuern, beginnend im Bezirk Brent. Öffentliche Fahrgäste sollen erst 2027 zugelassen werden.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "lyft-dallas-unbekannt",
+      "provider": "Lyft",
+      "cityKey": "dallas",
+      "operator": "Unbekannt",
+      "platform": "Lyft",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-02-10",
+      "launchedOn": null,
+      "target": {
+        "start": "2026-01-01",
+        "end": "2026-12-31",
+        "precision": "year",
+        "label": "2026"
+      },
+      "source": {
+        "url": "https://www.lyft.com/blog/posts/lyft-q4-and-full-year-2025-results-prepared-remarks",
+        "title": "Lyft / Unbekannt · Dallas · offizielle Meldung",
+        "publishedOn": "2026-02-10",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": {
+        "url": "https://www.lyft.com/blog/posts/lyft-q4-and-full-year-2025-results-prepared-remarks",
+        "title": "Lyft / Unbekannt · Dallas · offizielle Meldung",
+        "publishedOn": "2026-02-10",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "notes": "Lyfts Ergebnis-Kommentar nennt Dallas als geplanten Markt für autonome Einsätze 2026. Diese Quelle belegt keinen tatsächlichen Start; ein konkreter Technologiepartner wird hier nicht zugeordnet.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "lyft-hamburg-unbekannt",
+      "provider": "Lyft",
+      "cityKey": "hamburg",
+      "operator": "Unbekannt",
+      "platform": "Lyft",
+      "status": "preparation",
+      "driving": "unknown",
+      "announcedOn": "2026-02-10",
+      "launchedOn": null,
+      "target": null,
+      "source": {
+        "url": "https://www.lyft.com/blog/posts/lyft-q4-and-full-year-2025-results-prepared-remarks",
+        "title": "Lyft / Unbekannt · Hamburg · offizielle Meldung",
+        "publishedOn": "2026-02-10",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": null,
+      "notes": "Freenow by Lyft und Hamburg haben einen Rahmen für die künftige Einführung autonomer Taxis vereinbart. Kein bestätigter öffentlicher Starttermin und kein hier belegter Technologiepartner.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-las-vegas-zoox",
+      "provider": "Uber",
+      "cityKey": "las-vegas",
+      "operator": "Zoox",
+      "platform": "Uber",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-03-11",
+      "launchedOn": null,
+      "target": {
+        "start": "2026-01-01",
+        "end": "2026-12-31",
+        "precision": "year",
+        "label": "Sommer 2026",
+        "qualifier": "summer"
+      },
+      "source": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Zoox-and-Uber-Announce-Strategic-Partnership/default.aspx",
+        "title": "Uber / Zoox · Las Vegas · offizielle Meldung",
+        "publishedOn": "2026-03-11",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Zoox-and-Uber-Announce-Strategic-Partnership/default.aspx",
+        "title": "Uber / Zoox · Las Vegas · offizielle Meldung",
+        "publishedOn": "2026-03-11",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "notes": "Uber-Vermittlung von Zoox-Fahrten für Sommer 2026 angekündigt. Die Ankündigung bestätigt keinen vollzogenen Uber-Start; die Verfügbarkeit über die eigene Zoox-App ist ein anderes Angebot.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    },
+    {
+      "id": "uber-los-angeles-zoox",
+      "provider": "Uber",
+      "cityKey": "los-angeles",
+      "operator": "Zoox",
+      "platform": "Uber",
+      "status": "announced",
+      "driving": "unknown",
+      "announcedOn": "2026-03-11",
+      "launchedOn": null,
+      "target": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "precision": "year",
+        "label": "Mitte 2027",
+        "qualifier": "mid"
+      },
+      "source": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Zoox-and-Uber-Announce-Strategic-Partnership/default.aspx",
+        "title": "Uber / Zoox · Los Angeles · offizielle Meldung",
+        "publishedOn": "2026-03-11",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "drivingSource": null,
+      "targetSource": {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Zoox-and-Uber-Announce-Strategic-Partnership/default.aspx",
+        "title": "Uber / Zoox · Los Angeles · offizielle Meldung",
+        "publishedOn": "2026-03-11",
+        "dynamic": false,
+        "checkedAt": "2026-09-24"
+      },
+      "notes": "Vermittlung von Zoox-Robotaxis über Uber bis Mitte 2027 geplant. Dies ist ein eigenes Partnerangebot neben dem MOIA-Programm.",
+      "extraction": "verified",
+      "review": "source-checked",
+      "verifiedOn": "2026-09-24",
+      "history": []
+    }
+  ]
+}

@@ -14,9 +14,10 @@ export function extractTargets(text,publishedOn){
   add(/\b(20\d{2})-(\d{2})-(\d{2})\b/g,m=>exact(m[1],m[2],m[3]));
   add(new RegExp('\\b('+months+')\\.?\\s+(\\d{1,2})(?:st|nd|rd|th)?[,]?\\s+(20\\d{2})\\b','gi'),m=>exact(m[3],MONTHS[m[1].toLowerCase()],m[2]));
   add(new RegExp('\\b(\\d{1,2})\\.?\\s+('+months+')\\.?\\s+(20\\d{2})\\b','gi'),m=>exact(m[3],MONTHS[m[2].toLowerCase()],m[1]));
+  add(/\bQ([1-4])\s+(20\d{2})\s+(?:or|oder|to|bis)\s+Q([1-4])\s+(20\d{2})\b/gi,m=>makeTarget({start:span(m[2],Number(m[1])*3-2,Number(m[1])*3,'quarter').start,end:span(m[4],Number(m[3])*3-2,Number(m[3])*3,'quarter').end,precision:'range'}));
   add(/\b(?:Q([1-4])|([1-4])\.?\s*Quartal)\s+(20\d{2})\b/gi,m=>{const q=Number(m[1]||m[2]);return span(m[3],q*3-2,q*3,'quarter');});
   add(/\b(first|second|1\.?|2\.?)\s+(?:half(?:\s+of)?|Halbjahr)\s+(20\d{2})\b/gi,m=>/first|1/i.test(m[1])?span(m[2],1,6,'half'):span(m[2],7,12,'half'));
-  add(/\b(?:towards?\s+(?:the\s+)?|at\s+the\s+|gegen\s+)?(end of|late|early|mid|Anfang|Mitte|Ende|spring|summer|autumn|fall|winter|Frühjahr|Sommer|Herbst)\s+(20\d{2})\b/gi,m=>year(m[2],qualifier(m[1])));
+  add(/\b(?:towards?\s+(?:the\s+)?|at\s+the\s+|gegen\s+)?(end of|late|early|mid|Anfang|Mitte|Ende|spring|summer|autumn|fall|winter|Frühjahr|Sommer|Herbst)[\s-]+(20\d{2})\b/gi,m=>year(m[2],qualifier(m[1])));
   add(new RegExp('\\b('+months+')\\.?\\s+(20\\d{2})\\b','gi'),m=>span(m[2],MONTHS[m[1].toLowerCase()],MONTHS[m[1].toLowerCase()],'month'));
   if(validDay(publishedOn)){const y=Number(publishedOn.slice(0,4));add(/\b(?:(early|late|mid|end of|Anfang|Mitte|Ende)\s+)?(next year|this year|nächstes Jahr|nächsten Jahres|dieses Jahr|dieses Jahres)\b/gi,m=>year(y+(/next|nächst/i.test(m[2])?1:0),m[1]?qualifier(m[1]):undefined));}
   add(/\b(20\d{2})\b/g,m=>year(m[1]));
