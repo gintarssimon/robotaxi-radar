@@ -1,0 +1,142 @@
+name: Robotaxi Radar reparieren
+'on':
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/robotaxi-ordner-reparieren.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: robotaxi-radar-update
+  cancel-in-progress: false
+jobs:
+  repair:
+    if: github.repository == 'gintarssimon/robotaxi-radar' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Update-Dateien an die richtigen Orte kopieren
+        shell: bash
+        run: |
+          python3 - <<'PYTHON'
+          from pathlib import Path
+          import hashlib, json, re, shutil
+          
+          release = '2026-09-24.6'
+          expected = {
+              "public/app.js": "e2b2c099b743a5a0e029f46715dbb4a74171ce4fdbed24ae92d841cc6d498e45",
+              "public/baseline.js": "7c683f795033e1e61a340d9d6eacd1f4fa3a69dc8502ce5e229f0b6f13f57d88",
+              "public/merge.js": "8c6192805c6f779305691f552ba58fc1f8c651e00d2f2f3c5da5eaba7a985fb6",
+              "public/model.js": "48f9949c2fc852c7f147ad34cb43d3f71312507a9cb8b2d08941e129b3ca0456",
+              "public/index.html": "bd4a984df9f3542f5c2d91d837289d892048868c4afe3098d5896a63f279814f",
+              "public/style.css": "4bbffeb83571a25c58bb90594bdee42c0f21d678bae626d1a0e7f0641fc502bd",
+              "public/data/verified.json": "3133544c3c3b0b227fda2bd7ad736a6785ae3d7315f16edc83f9c62e0c9d272f",
+              "public/data/cities.json": "6a0b5e33334dd296f5e46cffd77d884610b6c59eb1228c1ce18a4def23ae5b2b",
+              "scripts/refresh-free.mjs": "031c21e6c376a285e47c8462541d24264ee1cfa3a052adf9b91fdd6fd97dfd91",
+              "scripts/lib/analyze.mjs": "9cbba30d288da78f82701083db483bad01ce318b769cc6c320617a0808ea4f5b",
+              "scripts/lib/announcement-dates.mjs": "d672338064d1f9f6a314eaefc60bd47cc6dcac8ce8d02a1bc511cd655e597ce4",
+              "scripts/lib/announcements.mjs": "ae3dd5c2ec0b6a61f4061c9de42cbbef34b544115da6cb0e3ede9560ea5d3522",
+              "scripts/lib/core.mjs": "235c941e00e18d8695a3839e8f844269db7335e75f64940a6fed82c4a7da694c",
+              "scripts/lib/crawl.mjs": "cd99c511a3ccd2a0d71c3fe1b5bf520d0555aae9f8168257ebed375facad3749",
+              "scripts/lib/free-rules.mjs": "0c3e700f13a46937e6079244e9d4b190ceaf41251c5240c7c2ea5ff30dc1582b",
+              "scripts/lib/launches.mjs": "fc2410cfb3a5a19d6f66cee12b6878152ee690d761d941c22866812111f2ce08",
+              "scripts/lib/sources.mjs": "df80f968e0e5ad2cf3dcbb87e586b3d9f87313f2c73ea9e5a860ee297cbfc5a3",
+              "test/announcements.test.mjs": "67ae21cdeb77349376eb468d3ae7a789daa781951dce3ee311acc9399654d41a",
+              "test/core.test.mjs": "7fb8eae764c26c62451192013de354aaeab659c2e3ef68ad6fcc9bd5a28834ff",
+              "test/coverage.test.mjs": "2d90b308157ded05bfb80cac78d8276eb339271844060acc6715ca3d025eb11f",
+              "test/free-rules.test.mjs": "e78b5e76a295df3cb9a1c5f8454553f2a42e27e9d539ebf5d1b4f5526cc0e01a",
+              "test/launches.test.mjs": "a9239fa52bece24c72c341280e2cf08d5646e80237351067f400712dd1559206",
+              "test/presence.test.mjs": "581d431bda2d3f0dc5bd4074279378fc9be638e11b6f680867546f9cf1df141a"
+          }
+          
+          def digest(path):
+              if path.is_symlink():
+                  raise SystemExit('Unerwartete Dateiverknuepfung: ' + str(path))
+              return hashlib.sha256(path.read_bytes()).hexdigest() if path.is_file() else None
+          
+          current = Path('public/data/verified.json')
+          if current.is_file():
+              version = json.loads(current.read_text()).get('version', '')
+              if tuple(map(int, re.findall(r'\d+', version))) > tuple(map(int, re.findall(r'\d+', release))):
+                  raise SystemExit('Eine neuere Version ist installiert. Diese Reparatur wurde nicht angewendet.')
+          
+          pending = []
+          for target, checksum in expected.items():
+              destination = Path(target)
+              source = Path(destination.name)
+              if digest(destination) == checksum:
+                  continue
+              if digest(source) != checksum:
+                  raise SystemExit('Passende Update-Datei fehlt oder wurde veraendert: ' + source.name + '. Es wurde noch nichts kopiert.')
+              pending.append((source, destination))
+          
+          for source, destination in pending:
+              destination.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copyfile(source, destination)
+              print(str(source) + ' -> ' + str(destination))
+          
+          for target, checksum in expected.items():
+              if digest(Path(target)) != checksum:
+                  raise SystemExit('Dateipruefung fehlgeschlagen: ' + target)
+          
+          baseline = json.loads(Path('public/data/verified.json').read_text())
+          london = next(r for r in baseline['records'] if r['id'] == 'uber-london-wayve')
+          assert baseline['version'] == release
+          assert london['status'] == 'live' and london['driving'] == 'supervised'
+          print(str(len(pending)) + ' Dateien einsortiert. London/Uber/Wayve vorhanden. Version ' + release)
+          PYTHON
+      - run: npm ci
+      - name: Alle Tests ausfuehren
+        run: npm test
+      - name: London und die weiteren Standorte uebernehmen
+        run: npm run refresh
+      - name: London im neuen Datenstand pruefen
+        shell: bash
+        run: |
+          node --input-type=module - <<'JS'
+          import {readFileSync} from 'node:fs';
+          import assert from 'node:assert/strict';
+          const data=JSON.parse(readFileSync('public/data/snapshot.json','utf8'));
+          assert.equal(data.lastRun.release,'2026-09-24.6');
+          assert.ok(data.records.some(r=>r.id==='uber-london-wayve'));
+          assert.ok(data.records.some(r=>r.id==='lyft-london-baidu-apollo-go'));
+          console.log('London-Eintraege und aktualisierter Programmstand vorhanden.');
+          JS
+      - name: Reparatur im Repository speichern
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public scripts test .radar/source-state.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Repariere Ordnerstruktur und aktiviere Robotaxi Radar v6'
+            git push origin HEAD:main
+          fi
+      - name: Korrigierte Website auf Firebase veroeffentlichen
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ROBOTAXIRADAR }}
+          projectId: robotaxiradar
+          channelId: live
+      - name: Ergebnis anzeigen
+        shell: bash
+        run: |
+          cat >> "$GITHUB_STEP_SUMMARY" <<'RESULT'
+          ## Reparatur erfolgreich
+          Die Update-Dateien liegen jetzt in public/, scripts/ und test/.
+          Die korrigierte Website wurde auf Firebase veroeffentlicht.
+
+          [Robotaxi Radar oeffnen](https://robotaxiradar.web.app/?update=20260924-v6)
+
+          Am Seitenende muss Version 2026-09-24.6 stehen.
+          Bei London sind Uber/Wayve und Lyft/Baidu jetzt neben Waymo erfasst.
+          Blockierte Quellen koennen weiterhin als Hinweis erscheinen; vorhandene Belege bleiben erhalten.
+          RESULT
