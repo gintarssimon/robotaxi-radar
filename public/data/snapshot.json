@@ -4,34 +4,39 @@
   "asOf": "2026-09-23",
   "coverage": "Recherchierte, unvollständige Startauswahl",
   "lastRun": {
-    "at": "2026-09-24T12:49:27.400Z",
+    "at": "2026-09-25T05:26:44.352Z",
     "status": "partial",
     "providers": {
       "Waymo": {
         "pages": 12,
-        "accepted": 64,
-        "announcements": 0,
-        "pendingReview": 7,
+        "accepted": 66,
+        "announcements": 2,
+        "pendingReview": 4,
         "ignored": 0,
         "rejected": 0,
         "errors": [],
-        "discovered": 55
+        "discovered": 56
       },
       "Uber": {
-        "pages": 15,
+        "pages": 14,
         "accepted": 6,
         "announcements": 0,
-        "pendingReview": 3,
+        "pendingReview": 2,
         "ignored": 0,
         "rejected": 0,
-        "errors": [],
+        "errors": [
+          {
+            "url": "https://investor.uber.com/news-events/news/press-release-details/2025/WeRide-and-Uber-Launch-Middle-Easts-First-Fully-Driverless-Robotaxi-Commercial-Operations-in-Abu-Dhabi-UAE/",
+            "reason": "Quellenabruf HTTP 403"
+          }
+        ],
         "discovered": 42
       },
       "Lyft": {
         "pages": 12,
         "accepted": 2,
         "announcements": 0,
-        "pendingReview": 1,
+        "pendingReview": 6,
         "ignored": 0,
         "rejected": 0,
         "errors": [],
@@ -94,14 +99,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -149,14 +154,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -204,14 +209,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -259,14 +264,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -314,14 +319,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -369,14 +374,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -424,14 +429,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -479,14 +484,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -534,14 +539,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -589,14 +594,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -644,14 +649,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -699,14 +704,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -754,14 +759,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -809,14 +814,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -864,14 +869,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -904,7 +909,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -930,7 +935,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -956,7 +961,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -982,7 +987,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1008,7 +1013,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1039,7 +1044,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1087,7 +1092,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1113,7 +1118,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1139,7 +1144,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1165,7 +1170,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1191,7 +1196,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1217,7 +1222,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1243,7 +1248,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1269,7 +1274,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1295,7 +1300,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1326,7 +1331,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": {
@@ -1380,7 +1385,7 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1428,16 +1433,17 @@
         "title": "Singapore, Next Stop: Bringing Scalable, Safe Autonomous Mobility to the Lion City",
         "publishedOn": "2026-09-17",
         "dynamic": false,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": {
         "url": "https://waymo.com/blog/2026/09/waymo-in-singapore/",
         "title": "Singapore, Next Stop: Bringing Scalable, Safe Autonomous Mobility to the Lion City",
         "publishedOn": "2026-09-17",
         "dynamic": false,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
-      "additionalSources": []
+      "additionalSources": [],
+      "drivingSource": null
     },
     {
       "id": "tesla-austin-tesla",
@@ -1606,14 +1612,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -1661,14 +1667,14 @@
         "title": "Because they’re everything",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": [
@@ -1701,14 +1707,14 @@
         "title": "Hey, Nashville. Waymo rides just dropped on Lyft.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://www.lyft.com/autonomous/waymo",
         "title": "Hey, Nashville. Waymo rides just dropped on Lyft.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": []
@@ -1741,7 +1747,7 @@
         "title": "Autonomous Rides | May Mobility",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1799,15 +1805,17 @@
         "title": "Servus München: Waymo is Coming to Germany",
         "publishedOn": "2026-08-25",
         "dynamic": false,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": {
         "url": "https://waymo.com/blog/2026/08/waymo-in-munich/",
         "title": "Servus München: Waymo is Coming to Germany",
         "publishedOn": "2026-08-25",
         "dynamic": false,
-        "checkedAt": "2026-09-24"
-      }
+        "checkedAt": "2026-09-25"
+      },
+      "additionalSources": [],
+      "drivingSource": null
     },
     {
       "id": "uber-dallas-avride",
@@ -1829,14 +1837,14 @@
         "title": "Self-driving Avride robotaxis on Uber in Dallas, TX",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": {
         "url": "https://www.uber.com/us/en/r/autonomous/dallas-tx-us/",
         "title": "Self-driving Avride robotaxis on Uber in Dallas, TX",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "targetSource": null,
       "additionalSources": []
@@ -1861,7 +1869,7 @@
         "title": "Autonomous Uber rides with Motional in Las Vegas, NV",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-09-24"
+        "checkedAt": "2026-09-25"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1869,6 +1877,78 @@
     }
   ],
   "reviewQueue": [
+    {
+      "id": "33432157725b3106c987",
+      "provider": "Lyft",
+      "url": "https://www.lyft.com/blog/posts/lyft-driver-to-autonomous-vehicle-operations-journey",
+      "title": "From the Driver's Seat to Depot: How One Lyft Driver Is Helping Build Nashville's AV Future",
+      "publishedOn": "2026-04-23",
+      "detectedOn": "2026-09-25",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "b52fe4bebb869ecf0841",
+      "provider": "Lyft",
+      "url": "https://www.lyft.com/blog/posts/autonomous-revolution-drivers",
+      "title": "Motoring down the AV superhighway",
+      "publishedOn": "2025-03-20",
+      "detectedOn": "2026-09-25",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "c28a39dfa1a41fc4218d",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2026/09/visionforlondon/",
+      "title": "Our Vision for London: How Waymo can Support a Safer, Connected UK Capital",
+      "publishedOn": "2026-09-24",
+      "detectedOn": "2026-09-25",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "5b21db3ca2fa5e30f1d3",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2025/12/2025-year-in-review/",
+      "title": "Delivering more for our riders in a year of incredible growth",
+      "publishedOn": "2025-12-10",
+      "detectedOn": "2026-09-25",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "0325d2a6653a1719ffbd",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2025/11/steve-fieler-as-waymos-new-cfo/",
+      "title": "Welcoming Steve Fieler as Waymo’s new CFO",
+      "publishedOn": "2025-11-10",
+      "detectedOn": "2026-09-25",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "47999910879ad5e50509",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2025/11/independent-audits/",
+      "title": "Independent Audits of Waymo’s Safety Case and Remote Assistance Programs",
+      "publishedOn": "2025-11-05",
+      "detectedOn": "2026-09-25",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "d72b643178738f303b94",
+      "provider": "Uber",
+      "url": "https://www.uber.com/ae/en/newsroom/go-get-2026/",
+      "title": "GO–GET 2026: One app for everything",
+      "publishedOn": null,
+      "detectedOn": "2026-09-25",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "6bf67a9986bcbbfd2563",
+      "provider": "Uber",
+      "url": "https://www.uber.com/ae/en/newsroom/go-get-2025/",
+      "title": "For Every Day",
+      "publishedOn": null,
+      "detectedOn": "2026-09-25",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
     {
       "id": "046cb3aeeaeba3844045",
       "provider": "Waymo",
@@ -1956,24 +2036,6 @@
       "url": "https://www.lyft.com/autonomous",
       "title": "We're driving rideshare forward, together",
       "publishedOn": "2025-07-01",
-      "detectedOn": "2026-09-24",
-      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
-    },
-    {
-      "id": "33432157725b3106c987",
-      "provider": "Lyft",
-      "url": "https://www.lyft.com/blog/posts/lyft-driver-to-autonomous-vehicle-operations-journey",
-      "title": "From the Driver's Seat to Depot: How One Lyft Driver Is Helping Build Nashville's AV Future",
-      "publishedOn": "2026-04-23",
-      "detectedOn": "2026-09-24",
-      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
-    },
-    {
-      "id": "b52fe4bebb869ecf0841",
-      "provider": "Lyft",
-      "url": "https://www.lyft.com/blog/posts/autonomous-revolution-drivers",
-      "title": "Motoring down the AV superhighway",
-      "publishedOn": "2025-03-20",
       "detectedOn": "2026-09-24",
       "reason": "Neue Quelle entdeckt · Inhalt prüfen"
     },
