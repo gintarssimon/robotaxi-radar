@@ -4,39 +4,34 @@
   "asOf": "2026-09-23",
   "coverage": "Recherchierte, unvollständige Startauswahl",
   "lastRun": {
-    "at": "2026-09-25T05:26:44.352Z",
+    "at": "2026-09-25T11:44:14.013Z",
     "status": "partial",
     "providers": {
       "Waymo": {
         "pages": 12,
         "accepted": 66,
         "announcements": 2,
-        "pendingReview": 4,
-        "ignored": 0,
+        "pendingReview": 5,
+        "ignored": 2,
         "rejected": 0,
         "errors": [],
         "discovered": 56
       },
       "Uber": {
-        "pages": 14,
+        "pages": 15,
         "accepted": 6,
         "announcements": 0,
-        "pendingReview": 2,
+        "pendingReview": 8,
         "ignored": 0,
         "rejected": 0,
-        "errors": [
-          {
-            "url": "https://investor.uber.com/news-events/news/press-release-details/2025/WeRide-and-Uber-Launch-Middle-Easts-First-Fully-Driverless-Robotaxi-Commercial-Operations-in-Abu-Dhabi-UAE/",
-            "reason": "Quellenabruf HTTP 403"
-          }
-        ],
+        "errors": [],
         "discovered": 42
       },
       "Lyft": {
         "pages": 12,
         "accepted": 2,
         "announcements": 0,
-        "pendingReview": 6,
+        "pendingReview": 2,
         "ignored": 0,
         "rejected": 0,
         "errors": [],
@@ -1950,6 +1945,105 @@
       "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
     },
     {
+      "id": "9f993d2a234d7ec0f2e5",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/wayve-on-uber/",
+      "title": "Wayve and Uber launch first-ever autonomous rides in the UK",
+      "publishedOn": null,
+      "detectedOn": "2026-09-25",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "c8ce38ebf55a143e76a8",
+      "provider": "Uber",
+      "url": "https://www.uber.com/ae/en/newsroom/launch-autonomous-dubai/",
+      "title": "WeRide and Uber Launch Autonomous Robotaxi Rides in Dubai, Expanding AV Footprint in the UAE",
+      "publishedOn": null,
+      "detectedOn": "2026-09-25",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "a305e0117b0ea68064a8",
+      "provider": "Uber",
+      "url": "https://www.uber.com/ae/en/newsroom/uber-weride-fullydriverless-abudhabi/",
+      "title": "WeRide and Uber Launch Middle East’s First Fully Driverless Robotaxi Commercial Operations in Abu Dhabi, UAE",
+      "publishedOn": null,
+      "detectedOn": "2026-09-25",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "1883bec3242f614a06c0",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/uber-backgroundchecks/",
+      "title": "A New Standard for Background Checks",
+      "publishedOn": null,
+      "detectedOn": "2026-09-25",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "3d0fcf77b9fb5afa7642",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/the-shortcut-your-grocery-lists-been-waiting-for/",
+      "title": "The shortcut your grocery list's been waiting for",
+      "publishedOn": null,
+      "detectedOn": "2026-09-25",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "72c1790f579db19e0969",
+      "provider": "Uber",
+      "url": "https://www.uber.com/us/en/newsroom/the-2026-uber-lost-found-index/",
+      "title": "The 10th Annual Uber Lost & Found Index",
+      "publishedOn": null,
+      "detectedOn": "2026-09-25",
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "0640e5d65fe6e376e105",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2025/10/your-doordash-order-delivered-by-waymo/",
+      "title": "Your DoorDash Order, Delivered by Waymo",
+      "publishedOn": "2025-10-16",
+      "detectedOn": "2026-09-25",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "f895248517346fcab4f1",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2025/10/creating-an-all-weather-driver/",
+      "title": "Creating an all-weather Driver",
+      "publishedOn": "2025-10-27",
+      "detectedOn": "2026-09-25",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "0c295352978ab350c843",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2025/09/waymo-for-business/",
+      "title": "Waymo for Business: Trusted Daily Rides for Organizations",
+      "publishedOn": "2025-09-24",
+      "detectedOn": "2026-09-25",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "596ec319bc54b9db6a79",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2025/08/bringing-waymo-to-more-people-sooner/",
+      "title": "Bringing Waymo to more people, sooner",
+      "publishedOn": "2025-08-29",
+      "detectedOn": "2026-09-25",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
+      "id": "457f1b49a5eaa83dc7a3",
+      "provider": "Waymo",
+      "url": "https://waymo.com/blog/2025/07/waymo-teen-accounts/",
+      "title": "Waymo teen accounts offer peace of mind for Phoenix families",
+      "publishedOn": "2025-07-08",
+      "detectedOn": "2026-09-25",
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
       "id": "046cb3aeeaeba3844045",
       "provider": "Waymo",
       "url": "https://waymo.com/updates/",
@@ -1990,33 +2084,6 @@
       "provider": "Uber",
       "url": "https://www.uber.com/ae/en/newsroom/",
       "title": "United Arab Emirates (UAE) Latest News | Uber NewsroomopenopenlinkedinyoutubeinstagramtwitterGlobe",
-      "publishedOn": null,
-      "detectedOn": "2026-09-24",
-      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
-    },
-    {
-      "id": "9f993d2a234d7ec0f2e5",
-      "provider": "Uber",
-      "url": "https://www.uber.com/us/en/newsroom/wayve-on-uber/",
-      "title": "Wayve and Uber launch first-ever autonomous rides in the UK",
-      "publishedOn": null,
-      "detectedOn": "2026-09-24",
-      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
-    },
-    {
-      "id": "c8ce38ebf55a143e76a8",
-      "provider": "Uber",
-      "url": "https://www.uber.com/ae/en/newsroom/launch-autonomous-dubai/",
-      "title": "WeRide and Uber Launch Autonomous Robotaxi Rides in Dubai, Expanding AV Footprint in the UAE",
-      "publishedOn": null,
-      "detectedOn": "2026-09-24",
-      "reason": "Neue Quelle entdeckt · Inhalt prüfen"
-    },
-    {
-      "id": "a305e0117b0ea68064a8",
-      "provider": "Uber",
-      "url": "https://www.uber.com/ae/en/newsroom/uber-weride-fullydriverless-abudhabi/",
-      "title": "WeRide and Uber Launch Middle East’s First Fully Driverless Robotaxi Commercial Operations in Abu Dhabi, UAE",
       "publishedOn": null,
       "detectedOn": "2026-09-24",
       "reason": "Neue Quelle entdeckt · Inhalt prüfen"
@@ -2103,37 +2170,10 @@
       "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
     },
     {
-      "id": "1883bec3242f614a06c0",
-      "provider": "Uber",
-      "url": "https://www.uber.com/us/en/newsroom/uber-backgroundchecks/",
-      "title": "A New Standard for Background Checks",
-      "publishedOn": null,
-      "detectedOn": "2026-09-24",
-      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
-    },
-    {
       "id": "fbee65a4d2b991ad00e1",
       "provider": "Uber",
       "url": "https://www.uber.com/us/en/newsroom/traveling-for-soccer-this-summer/",
       "title": "Traveling for soccer this summer? Uber has got you covered.",
-      "publishedOn": null,
-      "detectedOn": "2026-09-24",
-      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
-    },
-    {
-      "id": "3d0fcf77b9fb5afa7642",
-      "provider": "Uber",
-      "url": "https://www.uber.com/us/en/newsroom/the-shortcut-your-grocery-lists-been-waiting-for/",
-      "title": "The shortcut your grocery list's been waiting for",
-      "publishedOn": null,
-      "detectedOn": "2026-09-24",
-      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
-    },
-    {
-      "id": "72c1790f579db19e0969",
-      "provider": "Uber",
-      "url": "https://www.uber.com/us/en/newsroom/the-2026-uber-lost-found-index/",
-      "title": "The 10th Annual Uber Lost & Found Index",
       "publishedOn": null,
       "detectedOn": "2026-09-24",
       "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
