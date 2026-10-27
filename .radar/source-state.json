@@ -1,21 +1,21 @@
 {
   "Waymo|https://waymo.com/": {
     "hash": "848f30889f376985baee43eb4f0da9ef9c2f1db5e0025681b9a4ace82282a451",
-    "checkedAt": "2026-10-26",
-    "lastAttempt": "2026-10-26",
+    "checkedAt": "2026-10-27",
+    "lastAttempt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/updates/": {
     "hash": "1e92113d5d864a3caaa935a13975db3a595a74a24e1f8ba5db76f77b75c28d28",
-    "checkedAt": "2026-10-26",
-    "lastAttempt": "2026-10-26",
+    "checkedAt": "2026-10-27",
+    "lastAttempt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/blog/2026/09/transit-rewards/": {
     "hash": "bbf959e46246f611d177516d681883f155200dae21074a483dcd46140b7e628f",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "discovered": true,
     "titleHint": "",
     "parserVersion": 6,
@@ -23,7 +23,7 @@
   },
   "Waymo|https://waymo.com/blog/2026/09/waymo-in-singapore/": {
     "hash": "227b9e2e3eef876cc4fdb4eea7031804928f2db71521022d995383d4a7e6a5b7",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "discovered": true,
     "titleHint": "",
     "parserVersion": 6,
@@ -31,7 +31,7 @@
   },
   "Waymo|https://waymo.com/blog/2026/09/allianzpartnership/": {
     "hash": "f39e301c4a3da08f19719eac2173085e652c6f988eccc0d186869cb0bd46a64d",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "discovered": true,
     "titleHint": "",
     "parserVersion": 6,
@@ -39,66 +39,66 @@
   },
   "Uber|https://www.uber.com/us/en/newsroom/": {
     "hash": "d85ab45593320c14ea6c0d7bed0b843dac139009adfcc3659763b63689e83536",
-    "checkedAt": "2026-10-26",
-    "lastAttempt": "2026-10-26",
+    "checkedAt": "2026-10-27",
+    "lastAttempt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Uber|https://www.uber.com/ae/en/newsroom/": {
     "hash": "71dc8f67b2e28156337750158a60c55c3851000a8fd19a58e2bb01e2d781b206",
-    "checkedAt": "2026-10-26",
-    "lastAttempt": "2026-10-26",
+    "checkedAt": "2026-10-27",
+    "lastAttempt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Uber|https://waymo.com/": {
     "hash": "848f30889f376985baee43eb4f0da9ef9c2f1db5e0025681b9a4ace82282a451",
-    "checkedAt": "2026-10-26",
-    "lastAttempt": "2026-10-26",
+    "checkedAt": "2026-10-27",
+    "lastAttempt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Uber|https://www.uber.com/us/en/newsroom/wayve-on-uber/": {
-    "hash": "96cd9832cb267c358453766dadd9aaebc2a856342bd4008c29c4b29ce4ca5e00",
-    "checkedAt": "2026-10-20",
+    "hash": "6179ae6f0560784cf575dc5747d25ae88052804e11bc8ab3365b550bf781a30d",
+    "checkedAt": "2026-10-27",
     "discovered": true,
     "titleHint": "Wayve and Uber launch first-ever autonomous rides in the UK",
-    "lastAttempt": "2026-10-20",
+    "lastAttempt": "2026-10-27",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
   },
   "Uber|https://www.uber.com/ae/en/newsroom/launch-autonomous-dubai/": {
     "hash": "6804370d7c64505aef1a464ecc81484ee6709f8ec41eeac16ec12aad7c7a0361",
-    "checkedAt": "2026-10-20",
+    "checkedAt": "2026-10-27",
     "discovered": true,
     "titleHint": "WeRide and Uber Launch Autonomous Robotaxi Rides in Dubai, Expanding AV Footprint in the UAE",
-    "lastAttempt": "2026-10-20",
+    "lastAttempt": "2026-10-27",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
   },
   "Uber|https://www.uber.com/ae/en/newsroom/uber-weride-fullydriverless-abudhabi/": {
     "hash": "c8206a229d0bab77838dd4c7b65aa4a8f124d4ac9387df58e60994325d5b58d6",
-    "checkedAt": "2026-10-20",
+    "checkedAt": "2026-10-27",
     "discovered": true,
     "titleHint": "WeRide and Uber Launch Middle East’s First Fully Driverless Robotaxi Commercial Operations in Abu Dhabi, UAE",
-    "lastAttempt": "2026-10-20",
+    "lastAttempt": "2026-10-27",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
   },
   "Lyft|https://www.lyft.com/blog": {
-    "hash": "db1db8bacef23a0c8587f4311a8559b7fda404a3c3c50bf08276534da1c27774",
-    "checkedAt": "2026-10-26",
-    "lastAttempt": "2026-10-26",
+    "hash": "a2816e37f3100f6b2def1e36d230028cfcc1393f126510285431588a7ed27185",
+    "checkedAt": "2026-10-27",
+    "lastAttempt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Lyft|https://www.lyft.com/autonomous": {
     "hash": "f17ef46f92353bbd4286da1503738cb63de8f31027acd0b963710de1e6ff7a49",
-    "checkedAt": "2026-10-26",
-    "lastAttempt": "2026-10-26",
+    "checkedAt": "2026-10-27",
+    "lastAttempt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
@@ -123,30 +123,30 @@
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/blog/": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "hash": "bdbfdc4ac06c46543a3c04a555d6806391907cecac0c4c65421d33bb9ebe85d9",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/blog/2026/09/transit-rewards": {
     "discovered": true,
     "titleHint": "Introducing transit rewards",
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "publishedOn": null,
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/blog/2026/09/waymo-in-singapore": {
     "discovered": true,
     "titleHint": "Singapore, Next Stop: Bringing Scalable, Safe Autonomous Mobility to the Lion City",
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "publishedOn": null,
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/blog/2026/09/allianzpartnership": {
     "discovered": true,
     "titleHint": "Building Waymo’s Risk and Insurance Foundation in Europe with Allianz Partners",
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "publishedOn": null,
     "attemptVersion": 6
   },
@@ -258,9 +258,9 @@
   "Waymo|https://waymo.com/blog/2026/06/because-theyre-everything/": {
     "discovered": true,
     "titleHint": "",
-    "lastAttempt": "2026-10-13",
+    "lastAttempt": "2026-10-27",
     "hash": "da0d2ef1bf959b947039833dbe61f60d530f0e041899bc42215972f4722672fe",
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -318,9 +318,9 @@
   "Waymo|https://waymo.com/blog/2026/07/gemini-in-waymo/": {
     "discovered": true,
     "titleHint": "",
-    "lastAttempt": "2026-10-13",
+    "lastAttempt": "2026-10-27",
     "hash": "7dcb659337eee12ee6fcafd4e52cd77c5249fdf994b540343b8fa4ba6a511de8",
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -448,9 +448,9 @@
   "Waymo|https://waymo.com/blog/2026/06/reference-driver/": {
     "discovered": true,
     "titleHint": "",
-    "lastAttempt": "2026-10-13",
+    "lastAttempt": "2026-10-27",
     "hash": "f98018e99885c8db2af0ca49a5a6373f934ee7f5d8b12ceca55b015cdf5ff71b",
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -558,9 +558,9 @@
   "Waymo|https://waymo.com/blog/2026/07/time-geo-crash-risk-effect/": {
     "discovered": true,
     "titleHint": "",
-    "lastAttempt": "2026-10-12",
+    "lastAttempt": "2026-10-27",
     "hash": "7f79a0e02f4799c8f8e84d1f7df20669d465108392bd73078ef11215e72a3434",
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -618,9 +618,9 @@
   "Waymo|https://waymo.com/blog/2026/06/waymo-premier/": {
     "discovered": true,
     "titleHint": "",
-    "lastAttempt": "2026-10-13",
+    "lastAttempt": "2026-10-27",
     "hash": "a1e1092eb953af77be0e276a51430b2a13b8aecd623a3d0a425a2976599cb81a",
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -854,9 +854,9 @@
   "Uber|https://www.uber.com/ae/en/newsroom/simplerfasteruber/": {
     "discovered": true,
     "titleHint": "Building a simpler, faster Uber",
-    "lastAttempt": "2026-10-18",
+    "lastAttempt": "2026-10-27",
     "hash": "14f0be3df58fd27efd023895d57a4490681b4d71d88ffa8791045ed8412d3eb2",
-    "checkedAt": "2026-10-18",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -864,9 +864,9 @@
   "Uber|https://www.uber.com/ae/en/newsroom/traveling-for-soccer-this-summer/": {
     "discovered": true,
     "titleHint": "Traveling for soccer this summer? Uber has got you covered.",
-    "lastAttempt": "2026-10-18",
+    "lastAttempt": "2026-10-27",
     "hash": "c6147ab4ebe113996481d2a0d8b4780eb01d598ceade14a6f5f36ad28d1db978",
-    "checkedAt": "2026-10-10",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -903,9 +903,9 @@
   "Uber|https://www.uber.com/ae/en/newsroom/uber-boat-uber-copter-italy/": {
     "discovered": true,
     "titleHint": "La Dolce Vita! Introducing Uber Copter & Uber Boat in Italy",
-    "lastAttempt": "2026-10-18",
+    "lastAttempt": "2026-10-27",
     "hash": "dd6bf62325cb0227993b0ef7aa37c4f195e2a121e02796a3805c2bd6a2ddb728",
-    "checkedAt": "2026-10-18",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -913,9 +913,9 @@
   "Uber|https://www.uber.com/ae/en/newsroom/uber-advertising-creative-studio/": {
     "discovered": true,
     "titleHint": "Uber Advertising Unveils Creative Studio to Power Connective Brand Moments",
-    "lastAttempt": "2026-10-18",
+    "lastAttempt": "2026-10-27",
     "hash": "5406a03e12c710e234a9b0b171bd6d437c58076b2de821b76ef712d9a9651e68",
-    "checkedAt": "2026-10-10",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -1058,9 +1058,9 @@
   "Lyft|https://www.lyft.com/blog/posts/2026-voting-access-program": {
     "discovered": true,
     "titleHint": "Every Trip to the Polls Needs a Way There: Lyft's 2026 Voting Access Program Sep 16, 2026",
-    "lastAttempt": "2026-10-20",
+    "lastAttempt": "2026-10-27",
     "hash": "7c615ac0bc16d3afe65b914aaee4f5b66c2789a63df7a50a04d482fca987a203",
-    "checkedAt": "2026-10-20",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -1386,34 +1386,34 @@
     "attemptVersion": 6
   },
   "Tesla|https://www.tesla.com/support/robotaxi": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/rides/": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "hash": "fb74914818facf63dd25fbd769cef4fc959f7362e90cfe4ce863cc897e158321",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Uber|https://www.uber.com/us/en/r/autonomous/dallas-tx-us/": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "hash": "519890328cdccd2259b5435e3600e02270b1ef6fbdbae6b0da36dac3b79bf2bf",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Uber|https://www.uber.com/us/en/r/autonomous/las-vegas-nv-us/": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "hash": "3168ccb5b0a57c24b6bf23c00ea7ea38dd0ada075fcf2adef7a4b343eef4fe48",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Uber|https://waymo.com/rides/": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "hash": "fb74914818facf63dd25fbd769cef4fc959f7362e90cfe4ce863cc897e158321",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
@@ -1437,16 +1437,16 @@
     "attemptVersion": 6
   },
   "Lyft|https://www.lyft.com/autonomous/waymo": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "hash": "5801f1e03ff20e27301a5f822dbad17ab605accd9d08ffec7a02f4b03b5e3c2e",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Lyft|https://www.lyft.com/autonomous/maymobility": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "hash": "bee54ff3683c2bb4bb424a7f0b3d21762006ef1c1090d6aa410522165780da5c",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6,
     "attemptVersion": 6
   },
@@ -1461,39 +1461,39 @@
     "attemptVersion": 6
   },
   "Uber|https://investor.uber.com/news-events/news/default.aspx": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6
   },
   "Uber|https://ir.weride.ai/news-events/news-releases": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6,
     "hash": "a6d25697123adc2023c9289ffcf52f1c72cf9ecbf1641f790f0a10ebfb15fe03",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/ch/de/newsroom/": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6,
     "hash": "5110cf2b02927379515ce4f38b759c800ab4ab837177e9edb6ba5477da813b35",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/es/es/newsroom/": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6
   },
   "Uber|https://www.uber.com/gb/en/newsroom/": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6,
     "hash": "83ac11a7a25d8b9071336d14b6f7047a1a41b6cb9995cdb547c9be2d11f77b7c",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/de/de/newsroom/": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6,
     "hash": "f796efc403d23fb99da0dfd297bffcc5d2c76ade18c597b3ff197072873e799c",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Uber|https://ir.weride.ai/news-releases/news-release-details/weride-recognized-fortunes-2026-change-world-list-only": {
@@ -1680,7 +1680,7 @@
     "discovered": true,
     "titleHint": "Nachhaltigkeit ist die bessere Wahl: Uber präsentiert neue Innovationen und Produkte auf dem Weg zur Emissionsfreiheit",
     "publishedOn": null,
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6
   },
   "Uber|https://www.uber.com/ch/de/newsroom/uber-startet-sein-mobilitatsangebot-in-graubunden/": {
@@ -1877,20 +1877,20 @@
     "discovered": true,
     "titleHint": "Uber Eats x London Fire Brigade",
     "publishedOn": null,
-    "lastAttempt": "2026-10-19",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6,
-    "hash": "5157494270e3e8c9b387eebd94bb83d39d604f2ee62b10e37e9e7bce5284d512",
-    "checkedAt": "2026-10-19",
+    "hash": "97e93ca09b312b5cd1f50053fd01ab732e9a5f71eafe010ab5c5193fe2a9e527",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/gb/en/newsroom/restaurant-of-the-year-2026/": {
     "discovered": true,
     "titleHint": "Restaurant of the Year Awards 2026",
     "publishedOn": null,
-    "lastAttempt": "2026-10-19",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6,
     "hash": "ae29bab4ba1622a845fa35297c8b482e9c33260823946061430bf0e633655f6a",
-    "checkedAt": "2026-10-19",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/gb/en/newsroom/eats-for-teens-uk/": {
@@ -1917,10 +1917,10 @@
     "discovered": true,
     "titleHint": "Uber Eats delivery robots form ‘Robo-choir’",
     "publishedOn": null,
-    "lastAttempt": "2026-10-19",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6,
     "hash": "2a4b79bde1d5ece600d4399686c6cc57d84f30acfd29278656da4ae105a18034",
-    "checkedAt": "2026-10-19",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/gb/en/newsroom/genderpaygap2025/": {
@@ -1937,20 +1937,20 @@
     "discovered": true,
     "titleHint": "From Sausage Rolls to Char Kuey Teow: The Dishes Set to Define 2026",
     "publishedOn": null,
-    "lastAttempt": "2026-10-19",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6,
     "hash": "d3d009a9fab215c1351546bb5145d6cc9c39614392ad7643cba6bc9ebed27e83",
-    "checkedAt": "2026-10-19",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/gb/en/newsroom/milano-cortina-2026/": {
     "discovered": true,
     "titleHint": "Milano Cortina 2026: Uber Is a New Sponsor of the Olympic and Paralympic Winter Games",
     "publishedOn": null,
-    "lastAttempt": "2026-10-19",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6,
-    "hash": "ec0d894f69f381cdf18380b982fd9ad1452a41990e145695b7899b04fa5daa0f",
-    "checkedAt": "2026-10-19",
+    "hash": "1797fdaf0d9cee68e394f6b8c48c93fefa6ab951aa5f663e991bc84c977e5276",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/de/de/newsroom/uber-eats-rewe/": {
@@ -2160,15 +2160,15 @@
   },
   "Uber|https://www.uber.com/es/es-es/newsroom/": {
     "hash": "be750fa6a5763344c16d216f8cab6fa85a1417f9914839f7cb8140c119425f6d",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Lyft|https://investor.lyft.com/news-and-events/news/default.aspx": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6
   },
   "Lyft|https://www.free-now.com/uk/press/": {
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6
   },
   "Lyft|https://investor.lyft.com/news-events-presentations/press-releases/detail/205/lyft-names-michael-brous-chief-financial-officer": {
@@ -2293,19 +2293,19 @@
   },
   "Lyft|https://investor.lyft.com/news-events-presentations/events": {
     "hash": "f2696aa259d5a18b9c6c79d5f59ab088c87cdea89938b510ec9138c08925aed5",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/us/en/newsroom/gogetzero-2024/": {
     "hash": "15759b8e1a158d88decc9f15c4b3f4c0db4ab8933ad47b5b7250130efcfc1b77",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Lyft|https://www.lyft.com/press/media-kit": {
     "discovered": true,
     "titleHint": "Download our press kit",
     "publishedOn": null,
-    "lastAttempt": "2026-10-26",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6
   },
   "Lyft|https://www.lyft.com/blog/posts/new-driver-tools-fall-2026": {
@@ -2417,10 +2417,10 @@
     "discovered": true,
     "titleHint": "Uber Eats Awards 2026: Die Finalisten stehen fest",
     "publishedOn": null,
-    "lastAttempt": "2026-10-18",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6,
-    "hash": "53cef1c127ba24ca7e116daadbeebdc5aa2443415f7e646dc6faf53ba7867bba",
-    "checkedAt": "2026-10-18",
+    "hash": "79c5021c2a7a8330dfbcc63da4e222669844532b15067aa64472270c976ea679",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/us/en/newsroom/teen-accounts-index-2026/": {
@@ -2482,10 +2482,10 @@
     "discovered": true,
     "titleHint": "We’re bringing back extra fuel savings for drivers Oct 19, 2026",
     "publishedOn": null,
-    "lastAttempt": "2026-10-20",
+    "lastAttempt": "2026-10-27",
     "attemptVersion": 6,
     "hash": "66ffa5668a6f2790a4e981a0c0e0e3510b667edaffea434ebe9fa14061bfae79",
-    "checkedAt": "2026-10-20",
+    "checkedAt": "2026-10-27",
     "parserVersion": 6
   },
   "Waymo|https://waymo.com/blog/2026/10/waymo-in-madrid-region": {
