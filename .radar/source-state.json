@@ -1,21 +1,21 @@
 {
   "Waymo|https://waymo.com/": {
-    "hash": "848f30889f376985baee43eb4f0da9ef9c2f1db5e0025681b9a4ace82282a451",
-    "checkedAt": "2026-10-29",
-    "lastAttempt": "2026-10-29",
+    "hash": "5d0f8d65a435ac1a6c7d5f994e9e686b8d441cec0c2388be3054e655ae9e1797",
+    "checkedAt": "2026-10-30",
+    "lastAttempt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/updates/": {
-    "hash": "1e92113d5d864a3caaa935a13975db3a595a74a24e1f8ba5db76f77b75c28d28",
-    "checkedAt": "2026-10-29",
-    "lastAttempt": "2026-10-29",
+    "hash": "18c1d3b2c2a0ead5e2a7edbbe7b0b37ed04dd963912d0f95b36fcb375ebca3da",
+    "checkedAt": "2026-10-30",
+    "lastAttempt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/blog/2026/09/transit-rewards/": {
     "hash": "bbf959e46246f611d177516d681883f155200dae21074a483dcd46140b7e628f",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "discovered": true,
     "titleHint": "",
     "parserVersion": 6,
@@ -23,7 +23,7 @@
   },
   "Waymo|https://waymo.com/blog/2026/09/waymo-in-singapore/": {
     "hash": "227b9e2e3eef876cc4fdb4eea7031804928f2db71521022d995383d4a7e6a5b7",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "discovered": true,
     "titleHint": "",
     "parserVersion": 6,
@@ -31,7 +31,7 @@
   },
   "Waymo|https://waymo.com/blog/2026/09/allianzpartnership/": {
     "hash": "f39e301c4a3da08f19719eac2173085e652c6f988eccc0d186869cb0bd46a64d",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "discovered": true,
     "titleHint": "",
     "parserVersion": 6,
@@ -39,22 +39,22 @@
   },
   "Uber|https://www.uber.com/us/en/newsroom/": {
     "hash": "d85ab45593320c14ea6c0d7bed0b843dac139009adfcc3659763b63689e83536",
-    "checkedAt": "2026-10-29",
-    "lastAttempt": "2026-10-29",
+    "checkedAt": "2026-10-30",
+    "lastAttempt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Uber|https://www.uber.com/ae/en/newsroom/": {
     "hash": "71dc8f67b2e28156337750158a60c55c3851000a8fd19a58e2bb01e2d781b206",
-    "checkedAt": "2026-10-29",
-    "lastAttempt": "2026-10-29",
+    "checkedAt": "2026-10-30",
+    "lastAttempt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Uber|https://waymo.com/": {
-    "hash": "848f30889f376985baee43eb4f0da9ef9c2f1db5e0025681b9a4ace82282a451",
-    "checkedAt": "2026-10-29",
-    "lastAttempt": "2026-10-29",
+    "hash": "5d0f8d65a435ac1a6c7d5f994e9e686b8d441cec0c2388be3054e655ae9e1797",
+    "checkedAt": "2026-10-30",
+    "lastAttempt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
@@ -90,63 +90,63 @@
   },
   "Lyft|https://www.lyft.com/blog": {
     "hash": "67b87fc09e825a1e1560e02c633ce117407fd0f20d692b19372145dc1a3c17d9",
-    "checkedAt": "2026-10-29",
-    "lastAttempt": "2026-10-29",
+    "checkedAt": "2026-10-30",
+    "lastAttempt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Lyft|https://www.lyft.com/autonomous": {
     "hash": "f17ef46f92353bbd4286da1503738cb63de8f31027acd0b963710de1e6ff7a49",
-    "checkedAt": "2026-10-29",
-    "lastAttempt": "2026-10-29",
+    "checkedAt": "2026-10-30",
+    "lastAttempt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Lyft|https://www.lyft.com/blog/posts/lyft-driver-to-autonomous-vehicle-operations-journey": {
     "hash": "c87cc538aa00e036e9be31921d0bc1a7cfc9d91ed349546765a8063e8cefc4c7",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "discovered": true,
     "titleHint": "The unexpected superpower behind Lyft's new AV depot: former drivers Sarah Conlisk - Apr 23, 2026",
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
   },
   "Lyft|https://www.lyft.com/blog/posts/autonomous-revolution-drivers": {
     "hash": "f26fa6a7ae4e57ca880cebaec6171fb3cae5a74e198f06e990eb4bcfdab8c9a4",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "discovered": true,
     "titleHint": "Lyft's autonomous revolution: Where drivers and technology move forward together",
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/blog/": {
-    "lastAttempt": "2026-10-29",
-    "hash": "3f6540c4dfb6ff317ae95274f09d123865b74ce904da20923e743fdd0aa50236",
-    "checkedAt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
+    "hash": "dbd59c1f2787a58ea7e95a980d34f5715bce61c7fd638afa864b897f9358001c",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/blog/2026/09/transit-rewards": {
     "discovered": true,
     "titleHint": "Introducing transit rewards",
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "publishedOn": null,
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/blog/2026/09/waymo-in-singapore": {
     "discovered": true,
     "titleHint": "Singapore, Next Stop: Bringing Scalable, Safe Autonomous Mobility to the Lion City",
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "publishedOn": null,
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/blog/2026/09/allianzpartnership": {
     "discovered": true,
     "titleHint": "Building Waymo’s Risk and Insurance Foundation in Europe with Allianz Partners",
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "publishedOn": null,
     "attemptVersion": 6
   },
@@ -378,9 +378,9 @@
   "Waymo|https://waymo.com/blog/2026/01/miami-your-waymo-ride-is-ready/": {
     "discovered": true,
     "titleHint": "",
-    "lastAttempt": "2026-10-15",
+    "lastAttempt": "2026-10-30",
     "hash": "e66bc95313f05a43455c927d82b88afc08253d5eae72dc4bac4dffa0dcd0b469",
-    "checkedAt": "2026-10-15",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -588,9 +588,9 @@
   "Waymo|https://waymo.com/blog/2026/08/waymo-in-munich/": {
     "discovered": true,
     "titleHint": "",
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "hash": "c8452ce5a4e0fbc874bed3c25838c94e71cac90ab9cf502a61e03a54445eab62",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -648,9 +648,9 @@
   "Waymo|https://waymo.com/blog/2026/01/waymo-rides-at-sfo/": {
     "discovered": true,
     "titleHint": "",
-    "lastAttempt": "2026-10-15",
+    "lastAttempt": "2026-10-30",
     "hash": "f9a18d8353eb6d50608b8c48682d220c9a09f37192869196a09abcacf4889476",
-    "checkedAt": "2026-10-15",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -1338,9 +1338,9 @@
   "Lyft|https://www.lyft.com/blog/posts/beyond-the-wheel-how-lyfts-flexdrive-is-shaping-the-future-of-autonomous": {
     "discovered": true,
     "titleHint": "Beyond the wheel: How Lyft’s Flexdrive is shaping the future of autonomous ridesharing",
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "hash": "2ece1374f80b457c12661b84339ad479648a1dac107ca7bb8f6dfa23039eaa37",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -1358,9 +1358,9 @@
   "Lyft|https://www.lyft.com/blog/posts/were-setting-a-multi-sensor-safety-standard-for-autonomous-rides": {
     "discovered": true,
     "titleHint": "Read more",
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "hash": "df79ce9a8f06f4d2fbc844922cf0cb4e367fd258bd4913c15b0cf8a690a4de61",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6,
     "publishedOn": null,
     "attemptVersion": 6
@@ -1386,34 +1386,34 @@
     "attemptVersion": 6
   },
   "Tesla|https://www.tesla.com/support/robotaxi": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6
   },
   "Waymo|https://waymo.com/rides/": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "hash": "fb74914818facf63dd25fbd769cef4fc959f7362e90cfe4ce863cc897e158321",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Uber|https://www.uber.com/us/en/r/autonomous/dallas-tx-us/": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "hash": "3e8dd9a8225fe3d84a8bc99253fe885d6fdcaddd90250c22efa441a602b401dc",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Uber|https://www.uber.com/us/en/r/autonomous/las-vegas-nv-us/": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "hash": "a081a25a5d7852a246d041505330e96f2e2ece44e9226009cbe8024925163751",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Uber|https://waymo.com/rides/": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "hash": "fb74914818facf63dd25fbd769cef4fc959f7362e90cfe4ce863cc897e158321",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
@@ -1437,16 +1437,16 @@
     "attemptVersion": 6
   },
   "Lyft|https://www.lyft.com/autonomous/waymo": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "hash": "5801f1e03ff20e27301a5f822dbad17ab605accd9d08ffec7a02f4b03b5e3c2e",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
   "Lyft|https://www.lyft.com/autonomous/maymobility": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "hash": "bee54ff3683c2bb4bb424a7f0b3d21762006ef1c1090d6aa410522165780da5c",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6,
     "attemptVersion": 6
   },
@@ -1461,49 +1461,49 @@
     "attemptVersion": 6
   },
   "Uber|https://investor.uber.com/news-events/news/default.aspx": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6
   },
   "Uber|https://ir.weride.ai/news-events/news-releases": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "3ebf4ba9c8f7f6581e5ae83ca99bbfbf9f2698065285c5d2bbbb646f5ac687d1",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/ch/de/newsroom/": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "5110cf2b02927379515ce4f38b759c800ab4ab837177e9edb6ba5477da813b35",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/es/es/newsroom/": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6
   },
   "Uber|https://www.uber.com/gb/en/newsroom/": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "83ac11a7a25d8b9071336d14b6f7047a1a41b6cb9995cdb547c9be2d11f77b7c",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/de/de/newsroom/": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "97fa52ecb6172ed0c35d764f70f1fe40ac621afc1f51291793feec9a596c7faf",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://ir.weride.ai/news-releases/news-release-details/weride-recognized-fortunes-2026-change-world-list-only": {
     "discovered": true,
     "titleHint": "WeRide Recognized on Fortune's 2026 Change the World List as the Only Autonomous Driving Company Honored",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "30da6dc9f5d2fecb89982a1966b2cf56ad938d0ee1255b821e294d3b02a74ccc",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://ir.weride.ai/news-releases/news-release-details/wrd-30-powers-aion-i60-championship-winning-technology-available": {
@@ -1520,10 +1520,10 @@
     "discovered": true,
     "titleHint": "WeRide, Uber, and AVOMO receive Spain’s First National Operating Permit for Level 4 Autonomous Passenger Vehicles",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "54f6f85ed6cd126852ba150f2a5e0e4360c1df41c6a17e0a4cc281c05aec1b23",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://ir.weride.ai/news-releases/news-release-details/weride-included-hkex-tech-100-index-following-september-2026": {
@@ -1540,20 +1540,20 @@
     "discovered": true,
     "titleHint": "Accelerating European Expansion Through Proven Asset-Light Model, Driving Rapid Overseas Revenue Growth; 2Q2026 Total Revenue Reached RMB231.7 Million, Up 82.2% Year over Year",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "64931ad9d0ce4497ed900c5d64c3930f9daba2cb3a35f07224588d4349072831",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://ir.weride.ai/news-releases/news-release-details/weride-and-greenmobility-announce-strategic-partnership-advance": {
     "discovered": true,
     "titleHint": "WeRide and GreenMobility Announce Strategic Partnership to Advance Level 4 Autonomous Mobility in Denmark, Marking WeRide’s Entry into the Nordic Region",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "f229378b128393eb4a2000fcdc7b311552deb16b898db2e736530aa4365d7630",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://ir.weride.ai/news-releases/news-release-details/weride-report-second-quarter-and-first-half-2026-financial": {
@@ -1570,10 +1570,10 @@
     "discovered": true,
     "titleHint": "WeRide Named Among China's Top 10 AI Case Studies for UAE Autonomous Driving Deployment, the Only Autonomous Driving Company Recognized",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "bed02c06e6b1e9e69fb2c27b832bd3882855ad78b121affa61bef497ac497d34",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://ir.weride.ai/news-releases/news-release-details/weride-introduces-witt-physical-ai-cognitive-foundation-model": {
@@ -1590,10 +1590,10 @@
     "discovered": true,
     "titleHint": "WeRide Accelerates Global Expansion of Its End-to-End Intelligent Driving Solution",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "30a9743db9056e36d0ba1fcc57336834a20d84fafd76de590dc4c098c323898d",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/ch/de/newsroom/simplerfasteruber/": {
@@ -1610,10 +1610,10 @@
     "discovered": true,
     "titleHint": "WeRide und Uber planen die Einführung eines kommerziellen Robotaxi-Dienstes in der Region Zürich",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "6b7a6c835ea6d6c1a09337cd29354727044fc0fbf5ddacf5ea113ae09523a0ff",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/ch/de/newsroom/uber-lost-found-index-2026/": {
@@ -1630,10 +1630,10 @@
     "discovered": true,
     "titleHint": "Uber führt neue Sicherheitsfunktion «Audioaufzeichnung» für Fahrgäste ein",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "c09a34656dfd19f2036c51aac9f26b82401540e10511732cd65efd355b325dc1",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/ch/de/newsroom/crans-montana/": {
@@ -1680,7 +1680,7 @@
     "discovered": true,
     "titleHint": "Nachhaltigkeit ist die bessere Wahl: Uber präsentiert neue Innovationen und Produkte auf dem Weg zur Emissionsfreiheit",
     "publishedOn": null,
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6
   },
   "Uber|https://www.uber.com/ch/de/newsroom/uber-startet-sein-mobilitatsangebot-in-graubunden/": {
@@ -1857,10 +1857,10 @@
     "discovered": true,
     "titleHint": "Wayve and Uber launch first-ever autonomous rides in the UK",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "cfadab351453c5aed7e4b3be31650081ad5efcd398cb68f129274beedf22d353",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/gb/en/newsroom/simplerfasteruber/": {
@@ -1987,10 +1987,10 @@
     "discovered": true,
     "titleHint": "Uber Weintaxi: Von Frankfurt direkt in die Weinberge",
     "publishedOn": null,
-    "lastAttempt": "2026-10-21",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
-    "hash": "6873ceb050e72c20c335ebc3b697d1c85593c9e2e0041cf2e2f0890877419220",
-    "checkedAt": "2026-10-21",
+    "hash": "2a16c05b4003336b4fdd0b6cfcfcc6bf7760a423ab64ee31d1eeaedd142d079f",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/de/de/newsroom/uber-eats-awards-2026-halbfinalisten/": {
@@ -2077,10 +2077,10 @@
     "discovered": true,
     "titleHint": "",
     "publishedOn": null,
-    "lastAttempt": "2026-10-21",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
-    "hash": "400f7bd2cd725d3dcf759ad815f3ab1372a6602770f070cffe72987b2a05d3fa",
-    "checkedAt": "2026-10-21",
+    "hash": "06d02a47b0975b6ecc030093807873fc4a5e2527f788fd4f94c8d62106aa2d2a",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://investor.uber.com/news-events/news/press-release-details/2025/Uber-and-WeRide-Begin-Offering-Autonomous-Robotaxi-Passenger-Rides-in-Saudi-Arabia/default.aspx": {
@@ -2112,20 +2112,20 @@
     "discovered": true,
     "titleHint": "",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "755937be60802b55cb0dc8e6036cda02b1c21be6a3709291b0239524e3343dfb",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://ir.weride.ai/news-releases/news-release-details/weride-uber-and-avomo-bring-robotaxis-madrid": {
     "discovered": true,
     "titleHint": "",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "2a1f88a2d9982f3eece42c0155758b26cffca79b17a9c1863555dc1600e24c7a",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://investor.uber.com/news-events/news/press-release-details/2026/WeRide-and-Uber-Plan-to-Launch-Commercial-Robotaxi-Service-in-Zurich-Expanding-European-Partnership-2026-lbSmf_S3R_/default.aspx": {
@@ -2160,45 +2160,45 @@
   },
   "Uber|https://www.uber.com/es/es-es/newsroom/": {
     "hash": "be750fa6a5763344c16d216f8cab6fa85a1417f9914839f7cb8140c119425f6d",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Lyft|https://investor.lyft.com/news-and-events/news/default.aspx": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6
   },
   "Lyft|https://www.free-now.com/uk/press/": {
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6
   },
   "Lyft|https://investor.lyft.com/news-events-presentations/press-releases/detail/205/lyft-names-michael-brous-chief-financial-officer": {
     "discovered": true,
     "titleHint": "Lyft Names Michael Brous Chief Financial Officer",
     "publishedOn": "2026-09-09",
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "f4d7106faca4fea4e4bcf233f927881b97497f1c0b8128c044aff970853c5678",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Lyft|https://investor.lyft.com/news-events-presentations/press-releases/detail/204/waymo-rides-now-available-on-the-lyft-app-in-nashville": {
     "discovered": true,
     "titleHint": "Waymo Rides Now Available on the Lyft App in Nashville",
     "publishedOn": "2026-09-09",
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "ddb1dadfd8a8f046daf16a54c28b2a77187166c4ee4dccf786249fac8a7ab06e",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Lyft|https://investor.lyft.com/news-events-presentations/press-releases/detail/203/lyft-ceo-to-participate-in-fireside-chat-at-the-goldman-sachs-communacopia-technology-conference-2026": {
     "discovered": true,
     "titleHint": "Lyft CEO to Participate in Fireside Chat at the Goldman Sachs Communacopia + Technology Conference 2026",
     "publishedOn": "2026-09-03",
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "ecffb1c123aed407b2f4a1248b85d1fad387dd84c9f7557af8c9845969346c60",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Lyft|https://investor.lyft.com/news-events-presentations/press-releases/detail/202/lyft-reports-strong-q2-2026-results": {
@@ -2235,10 +2235,10 @@
     "discovered": true,
     "titleHint": "Lyft and Curb Expand Partnership to New York City, the Nation's Largest Taxi Market",
     "publishedOn": "2026-07-16",
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "6ae71a4547d0c2c65dffdeefe25252a3d643677a3b1c3ba91eca756ee0525840",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Lyft|https://investor.lyft.com/news-events-presentations/press-releases/detail/198/lyft-names-senthil-padmanabhan-chief-technology-officer": {
@@ -2265,47 +2265,47 @@
     "discovered": true,
     "titleHint": "Lyft and United Launch First-Ever Pay With Miles Option for U.S. Rideshare",
     "publishedOn": "2026-04-29",
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "c24af701e126c4d394017e687e57d742791427659b5bb06b1348157db362a85d",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Lyft|https://www.lyft.com/blog/posts/lyft-q4-and-full-year-2025-results-prepared-remarks": {
     "discovered": true,
     "titleHint": "",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "5d1fdc00c3f942f48cf6b4929d1e72793b637f92271d2addaea39d351c5b189c",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Lyft|https://www.lyft.com/blog/posts/freenow-by-lyft-and-baidu-start-av-testing-in-london": {
     "discovered": true,
     "titleHint": "",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "02581e6488bd772dfe9a372edc7713c531fa2080cd3b87991bf239bbf0354ca4",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Lyft|https://investor.lyft.com/news-events-presentations/events": {
     "hash": "f2696aa259d5a18b9c6c79d5f59ab088c87cdea89938b510ec9138c08925aed5",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/us/en/newsroom/gogetzero-2024/": {
     "hash": "15759b8e1a158d88decc9f15c4b3f4c0db4ab8933ad47b5b7250130efcfc1b77",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Lyft|https://www.lyft.com/press/media-kit": {
     "discovered": true,
     "titleHint": "Download our press kit",
     "publishedOn": null,
-    "lastAttempt": "2026-10-29",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6
   },
   "Lyft|https://www.lyft.com/blog/posts/new-driver-tools-fall-2026": {
@@ -2407,10 +2407,10 @@
     "discovered": true,
     "titleHint": "",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "792cd94d6f84f14ac08aa483de66dcd06602ba42ed0f7945e379cc4de2e71a17",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://www.uber.com/de/de/newsroom/uber-eats-awards-finale/": {
@@ -2437,30 +2437,30 @@
     "discovered": true,
     "titleHint": "Lyft, Inc. introduces Alcove, a new global brand for its chauffeur network Oct 15, 2026",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "f0dd02c8c60c1418d75770d2cfb65721bb37bcdfa3f045c458235bc9b501d688",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Lyft|https://investor.lyft.com/news-events-presentations/press-releases/detail/208/lyft-to-announce-third-quarter-2026-financial-results": {
     "discovered": true,
     "titleHint": "Lyft To Announce Third Quarter 2026 Financial Results",
     "publishedOn": "2026-10-15",
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "7b9ee479f5fb4e167ce0cbc6d45c5c39a4437b94781568d7f80cccf30b176a58",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Lyft|https://investor.lyft.com/news-events-presentations/press-releases/detail/207/lyft-inc-introduces-alcove-a-new-global-brand-for-its-chauffeur-network": {
     "discovered": true,
     "titleHint": "Lyft, Inc. Introduces Alcove, a New Global Brand for Its Chauffeur Network",
     "publishedOn": "2026-10-15",
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "b5b925bbfbd51d46cba5a2a22082d166c63b2b981ef982f139257fa6c356dee2",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Waymo|https://waymo.com/blog/2026/10/waymo-in-toronto": {
@@ -2517,10 +2517,10 @@
     "discovered": true,
     "titleHint": "What to do if you leave your phone in a Lyft Oct 22, 2026",
     "publishedOn": null,
-    "lastAttempt": "2026-10-23",
+    "lastAttempt": "2026-10-30",
     "attemptVersion": 6,
     "hash": "f1e34785139de3764aa44176dc368c04b892a6eff8d4ca645647a9b56d440db9",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   },
   "Uber|https://ir.weride.ai/news-releases/news-release-details/physical-ai-scaled-deployment-weride-named-among-wicv-2026s-top": {
@@ -2571,6 +2571,21 @@
     "attemptVersion": 6,
     "hash": "ca3fde01c4a0b5abff964a1d368af97fcd51677ece02d557721d136954b63c67",
     "checkedAt": "2026-10-28",
+    "parserVersion": 6
+  },
+  "Waymo|https://waymo.com/blog/2026/10/toyota-bz4x-partnership": {
+    "discovered": true,
+    "titleHint": "Toyota and Waymo Advance Autonomous Driving Collaboration for Safer Streets and Freedom of Movement for All",
+    "publishedOn": null
+  },
+  "Waymo|https://waymo.com/blog/2026/10/toyota-bz4x-partnership/": {
+    "discovered": true,
+    "titleHint": "",
+    "publishedOn": null,
+    "lastAttempt": "2026-10-30",
+    "attemptVersion": 6,
+    "hash": "3f62632d6c0f1472ef811496974d25396fcffff54e27f81eed41496a60def414",
+    "checkedAt": "2026-10-30",
     "parserVersion": 6
   }
 }
