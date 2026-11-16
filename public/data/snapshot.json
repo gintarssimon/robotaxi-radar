@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "mode": "free",
-  "asOf": "2026-11-15",
+  "asOf": "2026-11-16",
   "coverage": "Recherchierte, unvollständige Startauswahl",
   "lastRun": {
-    "at": "2026-11-15T12:44:39.707Z",
+    "at": "2026-11-16T13:39:43.413Z",
     "release": "2026-09-24.6",
     "status": "partial",
     "providers": {
@@ -18,14 +18,14 @@
         "rejected": 0,
         "errors": [],
         "discovered": 65,
-        "backlog": 12
+        "backlog": 14
       },
       "Uber": {
         "pages": 25,
         "accepted": 6,
         "announcements": 0,
         "launches": 0,
-        "pendingReview": 0,
+        "pendingReview": 2,
         "ignored": 0,
         "rejected": 0,
         "errors": [
@@ -38,7 +38,7 @@
         "backlog": 11
       },
       "Lyft": {
-        "pages": 20,
+        "pages": 18,
         "accepted": 2,
         "announcements": 0,
         "launches": 0,
@@ -55,7 +55,7 @@
             "reason": "Seite zu groß"
           }
         ],
-        "discovered": 68,
+        "discovered": 69,
         "backlog": 1
       },
       "Tesla": {
@@ -117,14 +117,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -172,14 +172,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -227,14 +227,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -282,14 +282,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -337,14 +337,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -392,14 +392,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -447,14 +447,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -502,14 +502,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -557,14 +557,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -612,14 +612,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -667,14 +667,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -722,14 +722,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -777,14 +777,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -832,14 +832,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -887,14 +887,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -927,7 +927,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -953,7 +953,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -979,7 +979,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1005,7 +1005,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1031,7 +1031,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1062,7 +1062,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1110,7 +1110,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1136,7 +1136,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1162,7 +1162,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1188,7 +1188,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1214,7 +1214,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1240,7 +1240,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1266,7 +1266,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1292,7 +1292,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1318,7 +1318,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1349,7 +1349,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": {
@@ -1408,7 +1408,7 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": {
@@ -1484,14 +1484,14 @@
         "title": "Singapore, Next Stop: Bringing Scalable, Safe Autonomous Mobility to the Lion City",
         "publishedOn": "2026-09-17",
         "dynamic": false,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": {
         "url": "https://waymo.com/blog/2026/09/waymo-in-singapore/",
         "title": "Singapore, Next Stop: Bringing Scalable, Safe Autonomous Mobility to the Lion City",
         "publishedOn": "2026-09-17",
         "dynamic": false,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "additionalSources": [],
       "drivingSource": null
@@ -1663,14 +1663,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -1718,14 +1718,14 @@
         "title": "Hail. Exhale. Hail. Exhale. Hail. Exhale.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://waymo.com/rides/",
         "title": "The future of transportation is here.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": [
@@ -1758,14 +1758,14 @@
         "title": "Hey, Nashville. Waymo rides just dropped on Lyft.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://www.lyft.com/autonomous/waymo",
         "title": "Hey, Nashville. Waymo rides just dropped on Lyft.",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": []
@@ -1798,7 +1798,7 @@
         "title": "Autonomous Rides | May Mobility",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -1888,14 +1888,14 @@
         "title": "Self-driving Avride robotaxis on Uber in Dallas, TX",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": {
         "url": "https://www.uber.com/us/en/r/autonomous/dallas-tx-us/",
         "title": "Self-driving Avride robotaxis on Uber in Dallas, TX",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "targetSource": null,
       "additionalSources": []
@@ -1920,7 +1920,7 @@
         "title": "Autonomous Uber rides with Motional in Las Vegas, NV",
         "publishedOn": null,
         "dynamic": true,
-        "checkedAt": "2026-11-15"
+        "checkedAt": "2026-11-16"
       },
       "drivingSource": null,
       "targetSource": null,
@@ -2678,6 +2678,26 @@
   ],
   "reviewQueue": [
     {
+      "id": "77f319ecbe447ca921c4",
+      "provider": "Uber",
+      "url": "https://www.uber.com/es/es-es/newsroom/pittsburg/",
+      "title": "Pittsburg, tu coche autónomo de Uber está llegando",
+      "publishedOn": null,
+      "detectedOn": "2026-11-16",
+      "places": [],
+      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
+    },
+    {
+      "id": "6bf67a9986bcbbfd2563",
+      "provider": "Uber",
+      "url": "https://www.uber.com/ae/en/newsroom/go-get-2025/",
+      "title": "For Every Day",
+      "publishedOn": "2025-05-14",
+      "detectedOn": "2026-11-16",
+      "places": [],
+      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
+    },
+    {
       "id": "3e1620e3222ead4b592c",
       "provider": "Uber",
       "url": "https://www.uber.com/de/en/newsroom/go-get-2025/",
@@ -2945,16 +2965,6 @@
       "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
     },
     {
-      "id": "77f319ecbe447ca921c4",
-      "provider": "Uber",
-      "url": "https://www.uber.com/es/es-es/newsroom/pittsburg/",
-      "title": "Pittsburg, tu coche autónomo de Uber está llegando",
-      "publishedOn": null,
-      "detectedOn": "2026-09-26",
-      "places": [],
-      "reason": "Veröffentlichungsdatum fehlt oder liegt in der Zukunft; Artikel prüfen."
-    },
-    {
       "id": "f8428d0c9d9b77d3ac3a",
       "provider": "Lyft",
       "url": "https://www.lyft.com/blog/posts/growing-out-up-going-global-our-way",
@@ -3028,16 +3038,6 @@
       "url": "https://waymo.com/blog/2025/11/independent-audits/",
       "title": "Independent Audits of Waymo’s Safety Case and Remote Assistance Programs",
       "publishedOn": "2025-11-05",
-      "detectedOn": "2026-09-25",
-      "places": [],
-      "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
-    },
-    {
-      "id": "6bf67a9986bcbbfd2563",
-      "provider": "Uber",
-      "url": "https://www.uber.com/ae/en/newsroom/go-get-2025/",
-      "title": "For Every Day",
-      "publishedOn": "2025-05-14",
       "detectedOn": "2026-09-25",
       "places": [],
       "reason": "Keine eindeutige Ankündigung eines künftigen öffentlichen Fahrdienstes erkannt."
